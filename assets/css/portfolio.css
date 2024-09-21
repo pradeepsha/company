@@ -1,0 +1,704 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&display=swap');
+/* font-family: 'Playfair Display', serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+/* font-family: 'Inter', sans-serif; */
+
+ @import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
+
+
+
+/* Take a look at some of our projects. css */
+.our-project-sec {
+    padding: 128px 0px;
+}
+.ourProject {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    text-align: center;
+    color: #101010;
+    max-width: 642px;
+    margin: 0 auto;
+    display: block;
+}
+.ourProject span{
+  position: relative;
+}
+.ourProject span::before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 1px;
+    background: #000;
+    left: 0;
+    bottom: 8px;
+  }
+.boxhero-content {
+    margin-top: 55px;
+}
+.one {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 42px;
+    color: #101010;
+    padding: 18px 33px;
+    background: #FFFFFF;
+    border: 1px solid #BFBFBF;
+    border-radius: 16px;
+    width: fit-content;
+}
+.pl-app{
+padding-left: 40px;
+}
+.pr-app{
+    padding-right: 40px;
+    }
+.delaver-app h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #101010;
+  
+}
+.delaver-app h2 {
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 42px;
+    color: #101010;
+    margin-top: 30px;
+}
+
+.delaver-app p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #1B1B1B;
+    margin-top: 15px;
+    max-width: 547px;
+}
+
+.delaver-app a button {
+    background: #101010;
+    border: 1px solid #101010;
+    padding: 15px 26px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 50px;
+    transition: 0.3s;
+}
+.delaver-app a button span{
+    padding-left: 8px;
+    font-size: 20px;
+}
+.delaver-app a button:hover {
+    background: #fff;
+    color: #101010;
+}
+
+.boxhero-travel {
+    margin-top: 88px;
+}
+
+.hutano-img {
+    text-align: right;
+}
+
+.flexDenmark{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.denmarkButton button{
+    background: #F5F5F5;
+    padding: 12px 14px;
+    color: #1B1B1B;
+font-family: 'Inter';
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+border: 0;
+}
+.denmarkButton button.denmark{
+    padding: 9px 14px;
+    margin-right: 14px;
+    position: relative;
+    top: -2px;
+}
+/* responsive  css */
+
+
+
+@media (max-width:1280px) {
+ 
+    .positionrelative::after{
+        display: none;
+    }
+}
+
+
+@media (max-width:1024px){
+    .discovery-Hd{
+        max-width: 420px;
+    }
+    .float-end.support{
+        float: left !important;
+    }
+    .swiper-pagination-vertical.swiper-pagination-bullets {
+        right: 2% !important;
+    }
+
+    .swiper{
+        position: initial !important;
+    }
+    .heading-txt{
+        font-size: 52px;
+    }
+    .heding-hero h2{   
+    font-size: 35px;
+    }
+    .heding-hero p{
+        margin-top: 15px;
+        font-size: 20px;
+        line-height: 36px;
+    }
+    .heding-solution::after{
+        right: 0;
+    }
+    .android-app-box h4{
+        font-size: 18px;
+    }
+    .android-app-box p{
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .solutions-icon img {
+        margin-right: 15px;
+        width: 52px;
+    }
+    .project-Hd h5{
+        font-size: 47px;
+        line-height: 60px;
+    }
+    .heding-solution h3{
+        font-size: 37px;
+        line-height: 57px;
+    }
+    .design-devlopement h4{
+        font-size: 24px;
+    }
+    .design-devlopement p{
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .our-project-sec {
+        padding: 80px 0px;
+    }
+    .ourProject{
+        font-size: 48px;
+    }
+    .boxhero-content {
+        margin-top: 0;
+    }
+    .one{
+        padding: 10px 25px;
+    }
+    .delaver-app p{
+        font-size: 18px;
+        line-height: 36px;
+    }
+    .mobil-app-Hd h5{
+        font-size: 48px;
+    line-height: 74px;
+    
+    }
+    .mobile-app-sec {
+        padding: 60px 0px 60px;
+        background: #fff;
+    }
+    .txt-transform h2{
+        font-size: 32px;
+        line-height: 52px;
+    }
+    .transform_your_business-sec{
+        padding: 80px 0px 80px;
+    }
+    .txt-transform p{
+        font-size: 16px;
+    line-height: 28px;
+    }
+    .faq-sec {
+        padding: 80px 0px;
+    }
+    .faq-Hd h6{
+        font-size: 50px;
+    }
+    .contact-Hd h5{
+        font-size: 34px;
+        line-height: 48px;
+    }
+    .box-design{
+        min-height: 326px;
+    }
+    footer{
+        padding: 50px 0px 24px;
+    }
+    .delaver-app a button{
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 912px){
+    .pl-app{
+        padding-left: 0;
+    }
+    .our-project-sec {
+        padding: 100px 0px;
+    }
+    .delaver-app h2{
+        font-size: 32px;
+    }
+    .pr-app{
+        padding-right: 0;
+    }
+    .android-app-box p{
+        min-height: 74px;
+    }
+  
+    .heding-hero {
+        max-width: 100%;
+    }
+    .hero-img{
+        text-align: center;
+        padding-top: 80px;
+    }
+    .heding-hero p{
+        max-width: 100%;
+    }
+    .technologies-sec {
+        padding: 80px 0px 80px;
+    }
+    .box-design {
+        min-height: 270px;
+    }
+    .txt-transform h2{
+        max-width: 100%;
+    }
+    .txt-transform p{
+        max-width: 100%;
+    }
+    .app_developmentCompnay-img{
+        margin-top: 50px;
+        text-align: center;
+    }
+    
+    }
+    @media(max-width:834px){
+        .technologies-sec {
+            padding: 10px 0px 10px;
+            margin-top: 54px;
+            background: #101010;
+        }
+        .delaver-app h3{
+            font-size: 20px;
+        }
+        .denmarkButton button.denmark {
+            padding: 9px 9px;
+            margin-right: 6px;
+            position: relative;
+            top: -2px;
+        }
+
+    }
+    @media(max-width:820px){
+      
+        .hero_Hd-sec {
+            padding: 110px 0px 100px 0px;
+        }
+        .heading-txt{
+            line-height: 72px;
+            font-size: 44px;
+        }
+        .hero-content {
+            padding-top: 60px;
+        }
+        .heding-hero h2 {
+            font-size: 32px;
+            text-align: center;
+            line-height: 54px;
+        }
+        .heding-hero p{
+            text-align: center;
+        }
+        .heding-solution::after {
+          display: none;
+        }
+        .heding-solution{
+            text-align: center;
+        }
+        .android-app-box{
+            text-align: center;
+        }
+        .heding-solution h3{
+            margin: 0 auto;
+        }
+
+        .technologies-bg p{
+            margin: 0 auto;
+            max-width: 600px;
+            display: block;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 38px;
+        }
+        .flex-service{
+            justify-content: space-around;
+        }
+        .language h6{
+            font-size: 18px;
+        }
+        .project-details{
+            padding: 60px 0px;
+        }
+        .project-Hd h5 {
+            font-size: 40px;
+            line-height: 40px;
+        }
+        .project-Hd p{
+            font-size: 18px;
+            line-height: 35px;
+        }
+        .box-design {
+            text-align: center;
+        }
+        .our-project-sec {
+            padding: 100px 0px;
+        }
+        .flexDenmark {
+            align-items: baseline;
+        }
+        .ourProject {
+            font-size: 44px;
+        }
+        .delaver-app h3{
+            margin-top: 20px;
+            font-size: 20px;
+        }
+        .one {
+            padding: 5px 20px;
+        }
+        .delaver-app h2 {
+            font-size: 30px;
+            margin-top: 10px;
+        }
+        .delaver-app p {
+            font-size: 16px;
+            line-height: 36px;
+        }
+        .assets-txt{
+            padding: 60px 0px;
+        }
+        .assets-txt h5{
+            font-size: 32px;
+            line-height: 48px;
+        }
+        .process-Hd h4 {
+            font-size: 37px;
+            line-height: 56px;
+        }
+        .process-Hd {
+            margin: 60px 0px 60px 0px;
+        }
+        .ptb-100 {
+            margin: 60px 0px 60px 0px;
+        }
+        .swiper {
+            height: 530px;
+        }
+        .mobil-app-Hd h5 {
+            font-size: 42px;
+            line-height: 63px;
+        }
+        .mobile-app-sec {
+            padding: 50px 0px 50px;
+        }
+        .txt-transform {
+            text-align: center;
+        }
+        .faq-sec {
+            padding: 60px 0px;
+        }
+        .faq-Hd h6 {
+            font-size: 40px;
+        }
+        .contact-sec {
+            padding: 60px 0px 60px;
+        }
+    }
+@media (max-width:768px) {
+    .flexDenmark{
+        display: block;
+    }
+    .denmarkButton{
+        margin-top: 10px;
+    }
+    .accordion-button{
+        font-size: 19px;
+    }
+    .delaver-app p {
+        font-size: 14px;
+        line-height: 23px;
+        margin-top: 5px;
+    }
+    .delaver-app a button{
+        padding: 10px 22px;
+        font-size: 14px;
+    }
+}
+    @media (max-width: 575.98px){
+
+        #button-bottom{
+            position: absolute;
+            left: 50%;
+            bottom: 0;
+            transform: translate(-50%, 70px);
+            display: block;
+        }
+        .boxhero-content {
+            margin-top: 70px;
+        }
+        .boxhero-travel.mt-sec{
+            margin-top: 0;
+        }
+        .discovery-Hd{
+            margin-top: 10px;
+        }
+        .heading-txt {
+            line-height: 60px;
+            font-size: 36px;
+        }
+        .heding-hero h2 {
+            font-size: 25px;
+            line-height: 42px;
+        }
+        .heding-hero p {
+            margin-top: 15px;
+            font-size: 16px;
+            line-height: 32px;
+        }
+        .hero-img {
+            padding-top: 40px;
+        }
+        .hero_Hd-sec {
+            padding: 100px 0px 50px 0px;
+        }
+        .heding-solution h3 {
+            font-size: 30px;
+            line-height: 45px;
+        }
+        .heding-solution p{
+            font-size: 16px;
+    line-height: 30px;
+        }
+        .android-app-box {
+            margin-top: 30px;
+            padding: 18px;
+        }
+        .solutions-sec{
+            margin-bottom: 40px;
+        }
+        .technologies-sec {
+            padding: 10px 0px 20px;
+            background: #101010;
+        }
+        .technologies-Hd{
+            font-size: 30px;
+    line-height: 50px;
+        }
+        .technologies-bg{
+            padding-top: 36px;
+            padding-bottom: 36px;
+        }
+        .technologies-bg p{
+            font-size: 15px;
+            line-height: 32px;
+        }
+        .language h6 {
+            font-size: 16px;
+        }
+        .iconTxt{
+            font-size: 12px;
+        }
+        .project-Hd h5 {
+            font-size: 30px;
+            line-height: 40px;
+        }
+        .project-details {
+            padding: 50px 0px;
+        }
+        .project-Hd p {
+            font-size: 16px;
+            line-height: 30px;
+        }
+        .box-design{
+            padding: 28px;
+        }
+        .our-project-sec {
+            padding: 100px 0px;
+            padding-bottom: 120px;
+        }
+        .ourProject {
+            font-size: 36px;
+        }
+        .healthcare img {
+            width: 40px;
+        }
+        .healthcare p{
+            font-size: 10px;
+        }
+        .one{
+            margin: 0 auto;
+        }
+        .boxhero-content {
+            text-align: center;
+        }
+        .boxhero-travel {
+            margin-top: 50px;
+        }
+        .boxhero-img{
+            margin-top: 50px;
+        }
+        .process-Hd {
+            margin: 20px;
+            text-align: center;
+            margin-top: 40px;
+        }
+        .process-Hd h4 {
+            font-size: 30px;
+            line-height: 50px;
+        }
+        .process-Hd p{
+            font-size: 16px;
+            line-height: 30px;
+        }
+        .ptb-100 {
+            margin: 0;
+        }
+        .swiper {
+            height: 375px;
+        }
+        .discovery-Hd{
+            max-width: 100%;
+        }
+        .assets-txt a button{
+            font-size: 14px;
+            padding: 15px 26px;
+        }
+        .mobil-app-Hd h5 {
+            font-size: 32px;
+            line-height: 54px;
+        }
+        .mobil-app-Hd p {
+            font-size: 16px;
+            line-height: 175%;
+            margin-top: 10px;
+        }
+        .transform_your_business-sec {
+            padding: 50px 0px 50px;
+        }
+        .txt-transform h2 {
+            font-size: 30px;
+            line-height: 46px;
+        }
+        .faq-sec {
+            padding: 30px 0px;
+        }
+        .faq-Hd h6 {
+            font-size: 30px;
+            line-height: 46px;
+        }
+   
+
+        .button-Send {
+            margin-top: 6px;
+        }
+        .button-Send button{
+            width: 100%;
+            font-size: 14px;
+        }
+        footer {
+            padding: 50px 0px 24px;
+            text-align: center;
+        }
+        .footer-detail p{
+            margin: 0 auto;
+        }
+        .flex-Social-icon{
+            justify-content: center;
+        }
+        .quickLink{
+            margin-top: 30px;
+        }
+        .quickLink ul {
+            margin-top: 20px;
+        }
+        .quickLink .d-flex{
+            display: block !important;
+        }
+        .quickLink .flex-grow-1 {
+            margin-left: 0rem  !important;
+            margin-top: 5px;
+          }
+    }
+    @media (max-width:430px) {
+    
+      
+    }
+    @media (max-width:414px) {
+        .discovery-Hd{
+            padding: 10px 14px 20px;
+        }
+        .swiper-pagination-vertical.swiper-pagination-bullets{
+            bottom: -4%;
+        }
+        .delaver-app a button span {
+            padding-left: 2px;
+            font-size: 16px;
+        }
+        .delaver-app a button {
+            padding: 10px 22px;
+            font-size: 12px;
+        }
+    }
+    @media (max-width:375px) {
+    
+     
+    }
+    @media (max-width:320px) {
+        .healthcare p {
+            font-size: 8px;
+        }
+        .swiper {
+            height: 442px;
+        }
+        .discovery-Hd h5{
+            font-size: 20px;
+        }
+        .delaver-app a button {
+            padding: 10px 13px;
+        }
+    }

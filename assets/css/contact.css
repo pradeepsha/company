@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&display=swap');
+/* font-family: 'Playfair Display', serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+/* font-family: 'Inter', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+
+
+/* Tell us about your Project */
+.tell-us-sec{
+    margin-top: 120px;
+}
+.tell_us-Bg{
+    border-radius: 64px;
+background: #F7F7FC;
+padding: 80px 60px;
+padding-top: 60px;
+}
+.tell-Hd h1{
+    color: #202020;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 84px;
+    font-family: 'Playfair Display', serif;
+    max-width: 383px;
+}
+.tell-Hd p{
+    color: #202020;
+    font-family: 'Inter';
+font-size: 22px;
+font-style: normal;
+font-weight: 500;
+line-height: 36px;
+margin-top: 20px;
+max-width: 482px;
+}
+.clutch-content{
+    margin-top: 50px;
+}
+.clutch-content img{
+    filter: grayscale(100%);
+}
+.clutch h6{
+    color: #949CA8;
+font-family: 'Inter';
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30.06px;
+letter-spacing: -0.5px;
+margin-top: 10px;
+}
+.clutch h6.job{
+    margin-top: 7px;
+}
+.form-msg .inputForm{
+    margin-top: 30px;
+}
+.form-msg .inputForm input{
+    border-radius: 12px;
+border: 1px solid #CDCDCF;
+height: 60px;
+font-size: 18px;
+font-family: 'Inter';
+background: #f7f7fc;
+padding: 0px 20px;
+}
+.form-msg .inputForm input::placeholder{
+    color: #969696;
+}
+
+.form-msg .inputForm input:focus {
+    border: 1px solid #5551FF;
+  }
+
+  .form-msg .inputForm textarea{
+    border-radius: 12px;
+border: 1px solid #CDCDCF;
+height: 210px;
+font-size: 18px;
+font-family: 'Inter';
+background: #f7f7fc;
+padding: 23px 20px;
+resize: none;
+}
+.form-msg .inputForm textarea::placeholder{
+    color: #969696;
+}
+.form-msg .inputForm textarea:focus {
+    border: 1px solid #5551FF;
+  }
+
+  .policy{
+    color: #969696;
+font-family: 'Inter';
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: -0.5px;
+max-width: 204px;
+
+  }
+  .policy a{
+    text-decoration: underline;
+    color: #969696;
+  }
+  .privacy{
+    margin-top: 30px;
+  }
+  .sendMsg{
+    text-align: right;
+  }
+   .sendMsg button{
+    color: #FFF;
+text-align: center;
+font-family: 'Playfair Display', serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+background: #5551FF;
+border:1px solid #5551FF;
+padding: 20px 44px;
+transition: 0.3s;
+   }
+   .sendMsg button:hover{
+background: #fff;
+color: #5551FF;
+   }
+
+
+   /* Connect with our Team sec */
+
+   .connect-sec{
+    padding: 180px 0px;
+   }
+   .connect-Hd{
+    text-align: center;
+   }
+   .connect-Hd h2{
+    font-family: 'Playfair Display', serif;
+font-size: 48px;
+font-style: normal;
+font-weight: 800;
+color: #202020;
+   }
+   .connect-Hd p{
+    
+    color: #202020;
+text-align: center;
+font-family: Inter;
+font-size: 22px;
+font-style: normal;
+font-weight: 500;
+line-height: 36px; 
+max-width: 616px;
+margin: 0 auto;
+display: block;
+letter-spacing: -0.5px;
+margin-top: 10px;
+   }
+
+   .boxAddress{
+    max-width: 850px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 40px;
+   }
+   .ideaBox{
+    background: #F9F9FD;
+    padding: 60px;
+    border-radius: 24px;
+   }
+
+   .ideaBox h3{
+    color: #202020;
+font-family: 'Inter';
+font-size: 28px;
+font-style: normal;
+font-weight: 500;
+letter-spacing: -1px;
+   }
+
+   .ideaBox h4{
+    color: #5551FF;
+font-family: 'Inter';
+font-size: 28px;
+font-style: normal;
+font-weight: 600;
+letter-spacing: -1px;
+margin-top: 4px;
+   }
+
+   .phoneTxt{
+    margin-top: 30px;
+    color: #202020;
+font-family: 'Inter';
+font-size: 22px;
+font-style: normal;
+font-weight: 500;
+letter-spacing: -0.5px;
+   }
+
+   .phoneTxt span{
+    margin-right: 4px;
+   }
+
+   /* Our Offices css */
+
+   .office-sec{
+    padding-bottom: 180px;
+   }
+   .office-sec  .connect-Hd p{
+    max-width: 844px;
+   }
+
+   .office-add{
+    max-width: 750px;
+    margin: 0 auto;
+    display: block;
+margin-top: 80px;
+   }
+
+   .office-add h5{
+    color: #202020;
+font-family: 'Inter';
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+letter-spacing: -0.5px;
+   }
+
+   .office-add p{
+    color: #202020;
+font-family: 'Inter';
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 34px; /* 170% */
+max-width: 325px;
+margin-top: 10px;    
+   }
+
+   .office-add p span{
+    display: block;
+   }
+
+   @media (max-width:1024px) {
+    .tell-Hd h1{
+        font-size: 50px;
+    }
+
+   }
+
+   @media (max-width:912px){
+    .clutch-content{
+        padding-bottom: 30px;
+    }
+    .tell_us-Bg{
+        padding-top: 50px;
+        padding-bottom: 60px;
+    }
+    .tell-Hd p{
+        margin-top: 0px;
+    }
+    .connect-sec {
+        padding: 120px 0px;
+    }
+    .office-sec {
+        padding-bottom: 120px;
+    }
+   }
+
+   @media (max-width:768px){
+    .office-sec {
+        padding-bottom: 80px;
+    }
+    .connect-sec{
+        padding: 80px 0px;
+    }
+   }
+
+   @media (max-width: 575.98px) {
+.tell_us-Bg{
+    padding: 20px 20px;
+    border-radius: 12px;
+}
+.tell-Hd h1 {
+    font-size: 32px;
+    line-height: 42px;
+}
+.tell-Hd p{
+    line-height: 24px;
+    font-size: 16px;
+    margin-top: 12px;
+}
+.clutch-content {
+    margin-top: 36px;
+}
+.clutch h6{
+    font-size: 16px;
+}
+.clutch{
+    margin-bottom: 20px;
+}
+.clutch-content {
+    padding-bottom: 0px;
+    text-align: center;
+}
+.tell_us-Bg{
+    text-align: center;
+}
+.sendMsg{
+    margin-top: 20px;
+}
+.sendMsg button{
+    width: 100%;
+    padding: 14px 44px;
+}
+.connect-sec {
+    padding: 50px 0px;
+}
+
+.connect-Hd h2{
+    font-size: 34px;
+}
+.connect-Hd p{
+    font-size: 18px;
+    line-height: 28px;
+}
+.bangaluru-Txt{
+    margin-bottom: 30px;
+}
+.office-sec {
+    padding-bottom: 30px;
+}
+.office-add{
+    margin-top: 50px;
+    text-align: center;
+}
+.ideaBox{
+    margin-bottom: 20px;
+    padding: 24px 30px;
+    text-align: center;
+}
+.ideaBox h3{
+    font-size: 24px;
+}
+.ideaBox h4{
+    font-size: 24px;
+}
+.phoneTxt {
+    margin-top: 20px;
+    font-size: 18px;
+}
+.office-add p{
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 100%;
+}
+.office-add p span {
+    display: inline;
+}
+   }

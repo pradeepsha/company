@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&display=swap');
+/* font-family: 'Playfair Display', serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+/* font-family: 'Inter', sans-serif; */
+
+ @import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
+
+
+
+/*Our Team css */
+
+.ourTeam{
+    margin-top:120px ;
+    text-align: center;
+}
+.ourTeamHd h1{
+    color: #111;
+text-align: center;
+font-family: 'Playfair Display', serif; 
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+}
+.ourTeamHd p{
+    max-width: 1068px;
+    margin: 0 auto;
+    margin-top: 20px;
+    color: #111;
+text-align: center;
+font-family: 'Inter', sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px; /* 166.667% */
+}
+
+.videoDetails-txt{
+    margin-top: 20px;
+}
+.videoDetails-txt h2{
+    color: #000;
+    font-family: 'Playfair Display', serif; 
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+text-transform: uppercase;
+}
+.videoDetails-txt h3{
+    color: #000;
+    font-family: 'Inter', sans-serif;
+font-size: 22px;
+font-style: normal;
+font-weight: 600;
+margin-top: 8px;
+}
+.teamVideo{
+    margin-top: 51px;
+}
+.video1-img img{
+    border-radius: 18px;
+border: 2px solid #000;
+
+}
+
+.joinTeam{
+    padding: 120px 0px;
+}
+
+.joinTeamTxt h2{
+    color: #000;
+    font-family: 'Playfair Display', serif;
+font-size: 52px;
+font-style: normal;
+font-weight: 700;
+text-align: center;
+}
+.joinTeamTxt h3{
+    color: #000;
+text-align: center;
+font-family: 'Inter', sans-serif;
+font-size: 24px;
+font-style: normal;
+text-align: center;
+max-width: 762px;
+font-weight: 500;
+margin: 0 auto;
+padding-bottom: 50px;
+margin-top: 20px;
+line-height: 40px; /* 166.667% */
+}
+
+.project-Designer{
+    border: 1px solid #101010;
+background: #FFF;
+padding:  40px 28px;
+margin-top: 30px;
+}
+
+.pr-Designer h2{
+    color: #101010;
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+}
+.pr-Designer h3{
+    color: #101010;
+    font-family: 'Inter', sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+margin-top: 14px;
+}
+.remoteBtn{
+    margin-top: 21px;
+}
+.remoteBtn button{
+    border-radius: 30px;
+border: 1px solid #101010;
+background: #FFF;
+margin-right: 10px;
+color: #101010;
+font-family: 'Inter', sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+padding: 15px 24px;
+}
+.applyArrow{
+    text-align: end;
+    color: #101010;
+    font-family: 'Inter', sans-serif;
+font-size: 24px;
+font-style: normal;
+cursor: pointer;
+font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+/* responsive  css */
+
+@media (max-width:1280px) {
+}
+
+
+@media (max-width:1024px){
+    .ourTeamHd h1{
+        font-size: 40px;
+    }
+    .ourTeamHd p{
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .videoDetails-txt h2{
+        font-size: 24px;
+    }
+    .videoDetails-txt h3{
+        font-size: 18px;
+    }
+    .joinTeamTxt h2{
+        font-size: 40px;
+    }
+    .joinTeamTxt h3{
+        font-size: 20px;
+        line-height: 34px;
+    }
+    .pr-Designer h2{
+        font-size: 28px;
+    }
+    .pr-Designer h3{
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .project-Designer{
+        padding: 30px 18px;
+    }
+    .joinTeam{
+        padding: 80px 0px;
+    }
+}
+
+@media (max-width: 912px){
+  
+    }
+    @media (max-width: 834px){
+        .videoDetails-txt h2 {
+            font-size: 20px;
+        }
+        .videoDetails-txt h3{
+            font-size: 15px;
+        }
+    }
+    @media (max-width:820px){
+
+    }
+@media (max-width:768px) {
+   
+}
+    @media (max-width: 575.98px){
+        .video1-img img{
+            width: 100%;
+        }
+        .teamVideo {
+            margin-top: 33px;
+        }
+        .project-Designer {
+            padding: 20px 10px;
+        }
+        .remoteBtn button{
+            padding: 10px 14px;
+            font-size: 15px;
+        }
+        .joinTeamTxt h3{
+            padding-bottom: 10px;
+        }
+        .joinTeam {
+            padding: 40px 0px;
+        }
+        .ourTeamHd p {
+            font-size: 18px;
+            line-height: 30px;
+            margin-top: 10px;
+        }
+        .applyArrow{
+            font-size: 20px;
+            margin-top: 29px;
+        }
+    }
+    @media (max-width:430px) {
+    
+      
+    }
+    @media (max-width:414px) {
+    
+    }

@@ -1,0 +1,2453 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&display=swap');
+/* font-family: 'Playfair Display', serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+/* font-family: 'Inter', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css");
+/* #Your Dedicated Partner for Your Web and Mobile App Needs css*/
+
+.dedicated-Partner-sec {
+    padding: 140px 0px;
+    padding-bottom: 0;
+}
+
+.heroHd h1 {
+    color: #1B1B1B;
+    font-family: 'Playfair Display', serif;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 800;
+    max-width: 1071px;
+    line-height: 90px;
+    /* 125% */
+}
+
+.heroHd h2 {
+    color: #111;
+    font-family: 'Inter', sans-serif;
+    margin-top: 15px;
+    font-size: 24px;
+    max-width: 1068px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    /* 166.667% */
+}
+
+.topMobileApp {
+    display: flex;
+    align-items: center;
+}
+
+.clutchDevelopers h4 {
+    color: #1B1B1B;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.clutchDevelopers h5 {
+    color: #1B1B1B;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    margin-top: 5px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.clutchDevelopers {
+    margin-left: 14px;
+}
+
+.clutchFlex {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.getInTouch {
+    margin-top: 30px;
+}
+
+.imgCompanyName {
+    text-align: center;
+    margin-left: 110px;
+}
+
+.getInTouch a {
+    display: block;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    width: fit-content;
+    font-style: normal;
+    margin-top: 60px;
+    transition: 0.3s;
+    font-weight: 600;
+    background: #1B1B1B;
+    padding: 14px 55px;
+    border: 1px solid #1B1B1B;
+    text-transform: uppercase;
+}
+
+.getInTouch a:hover {
+    color: #1B1B1B;
+    background: #fff;
+}
+
+
+/* Take a look at some of our projects. css */
+.our-project-sec {
+    padding: 114px 0px;
+}
+
+.passionate h2 {
+    color: #111;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    margin-top: 20px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    /* 166.667% */
+}
+
+.ourProject {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    text-align: center;
+    color: #101010;
+    max-width: 642px;
+    margin: 0 auto;
+    display: block;
+}
+
+.ourProject span {
+    position: relative;
+}
+
+.ourProject span::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 1px;
+    background: #000;
+    left: 0;
+    bottom: 8px;
+}
+
+.boxhero-content {
+    margin-top: 55px;
+}
+
+.one {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 42px;
+    color: #101010;
+    padding: 18px 33px;
+    background: #FFFFFF;
+    border: 1px solid #BFBFBF;
+    border-radius: 16px;
+    width: fit-content;
+}
+
+.pl-app {
+    padding-left: 40px;
+}
+
+.pr-app {
+    padding-right: 40px;
+}
+
+.delaver-app h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #101010;
+
+}
+
+.delaver-app h2 {
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 42px;
+    color: #101010;
+    margin-top: 30px;
+}
+
+.delaver-app p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #1B1B1B;
+    margin-top: 15px;
+    max-width: 547px;
+}
+
+.delaver-app a button {
+    background: #101010;
+    border: 1px solid #101010;
+    padding: 15px 26px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 50px;
+    transition: 0.3s;
+}
+
+.delaver-app a button span {
+    padding-left: 8px;
+    font-size: 20px;
+}
+
+.delaver-app a button:hover {
+    background: #fff;
+    color: #101010;
+}
+
+.boxhero-travel {
+    margin-top: 88px;
+}
+
+.hutano-img {
+    text-align: right;
+}
+
+.flexDenmark {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.denmarkButton button {
+    background: #F5F5F5;
+    padding: 12px 14px;
+    color: #1B1B1B;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    border: 0;
+}
+
+.denmarkButton button.denmark {
+    padding: 9px 14px;
+    margin-right: 14px;
+    position: relative;
+    top: -2px;
+}
+
+.moreCase-Studies {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.moreCase-Studies {
+    display: flex;
+    align-items: center;
+}
+
+.moreCase-Studies a {
+    margin: 0 auto;
+    width: fit-content;
+    color: #101010;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 41px;
+    text-transform: uppercase;
+    display: block;
+    border: 1px solid #000;
+    padding: 10px 24px;
+    transition: 0.3s;
+    padding-top: 7px;
+}
+
+.moreCase-Studies a span {
+    position: relative;
+    top: 5px;
+}
+
+.moreCase-Studies a i {
+    padding-left: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.moreCase-Studies a:hover {
+
+    color: #fff;
+    background: #000;
+}
+
+.serviceSec {
+    background: #000;
+    padding: 100px 0px;
+}
+
+.serviceHeading h2 {
+    color: #FFF;
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;
+
+}
+
+.serviceHeading h3 {
+    color: #FFF;
+    font-family: 'Inter';
+    max-width: 974px;
+    font-size: 24px;
+    margin-top: 14px;
+
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    /* 166.667% */
+}
+
+.serviceHeading {
+    position: relative;
+}
+
+.serviceHeading::after {
+    position: absolute;
+    right: 17%;
+    top: 18%;
+    width: 93px;
+    height: 100px;
+    content: '';
+    background-image: url(../images/agency.png);
+}
+
+.ourApprochBox {
+    margin-top: 40px;
+    border-radius: 20px;
+    padding: 30px;
+    background: #191919;
+}
+
+.ourApprochBox h2 {
+    color: #FFF;
+    font-family: 'Playfair Display', serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.ourApprochBox h3 {
+    color: #FFF;
+    font-family: 'Inter';
+    margin-top: 10px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    min-height: 150px;
+}
+
+.boxImgLogo img {
+    margin-right: 18px;
+}
+
+.boxImgLogo {
+    margin-top: 100px;
+}
+
+
+.clientsSay-sec {
+    padding: 100px 0px 120px;
+}
+
+
+.ourClientHd h2 {
+    color: #101010;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.box-ClientSay {
+    border-radius: 20px;
+    background: #F5F6FB;
+    padding: 60px;
+}
+
+.ceoCross h2 {
+    color: #101010;
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.ceoCross h2 a {
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+.ceoCross h3 {
+    color: #101010;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 8px;
+}
+
+.clientDenmark {
+    color: #101010;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.ceoAt-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.clientXT {
+    margin-top: 40px;
+}
+
+.clientXT h4 {
+    color: #1B1B1B;
+    font-family: 'Inter';
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px;
+    /* 171.429% */
+}
+
+.reviewStudyButton {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.reviewOn a {
+    display: block;
+    border: 1px solid #000;
+    color: #000;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    padding: 16px 20px;
+    padding-top: 11px;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.reviewOn a:hover {
+    background: #101010;
+    color: #fff;
+}
+
+.reviewOn a span {
+    padding-left: 10px;
+    position: relative;
+    font-size: 30px;
+    top: 5px;
+}
+
+.vCs a {
+    display: block;
+    border: 1px solid #000;
+    color: #fff;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    background: #101010;
+    padding: 16px 20px;
+    padding-top: 11px;
+    text-transform: uppercase;
+}
+
+.vCs a span {
+    padding-left: 10px;
+    position: relative;
+    font-size: 30px;
+    top: 5px;
+}
+
+.vCs a:hover {
+    background: none;
+}
+
+
+
+.sliderClients .swiper {
+    width: 100%;
+    height: 100%;
+}
+
+
+.sliderClients {
+    margin-top: 60px;
+    position: relative;
+}
+
+.sliderClients .swiper-pagination-bullet-active {
+    background: #000;
+}
+
+.sliderClients .swiper-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
+    height: 14px;
+    width: 14px;
+}
+
+.sliderClients .swiper-button-next::after {
+    content: "";
+    background-image: url(../images/s-4.png);
+    width: 40px;
+    height: 40px;
+    font-size: 0 !important;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: contain;
+}
+
+.sliderClients .swiper-button-prev::after {
+    content: "";
+    background-image: url(../images/s-1.png);
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    font-size: 0 !important;
+    background-size: contain;
+    position: absolute;
+}
+
+.sliderClients .swiper-wrapper {
+    padding-bottom: 80px !important;
+}
+
+
+.sliderClients .swiper-button-prev {
+    top: 96%;
+    left: 90%;
+}
+
+.sliderClients .swiper-button-next {
+    top: 96%;
+    right: var(--swiper-navigation-sides-offset, 30px);
+}
+
+.sliderClients .swiper-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic,
+.swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
+    bottom: 20px;
+}
+
+/* #The (H)Appening People css */
+
+.team-a-slider {
+    position: relative;
+    margin-top: 40px;
+}
+
+.appening-People-sec {
+    width: 100%;
+    background: #F0E3FF;
+    padding: 60px 0px;
+}
+
+.appeningPeople h2 {
+    text-align: center;
+    color: #101010;
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.appeningPeople h3 {
+    color: #101010;
+    font-family: 'Inter';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    margin: 0 auto;
+    max-width: 941px;
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+}
+
+.meetTeams {
+    margin-top: 15px;
+    display: block;
+    text-align: center;
+}
+
+.meetTeams a {
+    background: #1B1B1B;
+    color: #fff;
+    border: 1px solid #1B1B1B;
+    transition: 0.3s;
+    font-family: 'Inter';
+    padding: 15px 24px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.meetTeams a span {
+    padding-left: 10px;
+    font-size: 26px;
+}
+
+.meetTeams a:hover {
+    color: #1B1B1B;
+    background: #fff;
+}
+
+.team-a-slider .swiper-button-next::after {
+    content: "";
+    background-image: url(../images/s-2.png);
+    width: 50px;
+    height: 50px;
+    font-size: 0 !important;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.team-a-slider .swiper-button-prev::after {
+    content: "";
+    background-image: url(../images/s-3.png);
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    font-size: 0 !important;
+    position: absolute;
+    margin-left: 90px;
+}
+
+.team-a-slider .swiper-wrapper {
+    padding-bottom: 65px !important;
+}
+
+.team-a-slider .swiper::before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 240.664px;
+    height: 171px;
+    content: '';
+    z-index: 9;
+    background: linear-gradient(90deg, #F0E3FF 10.33%, rgba(240, 227, 255, 0.00) 100%);
+}
+
+.team-a-slider .swiper::after {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 240.664px;
+    height: 171px;
+    content: '';
+    background: linear-gradient(260deg, #F0E3FF 10.33%, rgba(240, 227, 255, 0.00) 100%);
+    z-index: 1;
+
+}
+
+.team-a-slider .swiper-pagination-bullet-active {
+    background: #1B1B1B !important;
+}
+
+.team-a-slider .swiper-pagination-bullet {
+    border-radius: var(--swiper-pagination-bullet-border-radius, 50%);
+    background: #fff;
+    opacity: var(--swiper-pagination-bullet-inactive-opacity, 1);
+}
+
+
+
+/* # Appening at a Glance css */
+
+.appeningGlance-sec {
+    padding: 120px 0px 100px;
+}
+
+.glanceHd h2 {
+    color: #101010;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.glanceHd h3 {
+    color: #101010;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 42px;
+    /* 175% */
+    max-width: 726px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-bottom: 18px;
+}
+
+.boxGlance {
+    padding: 40px;
+    border-radius: 20px;
+    border: 1px solid #EDEDED;
+    background: #FFF;
+    min-height: 345px;
+    margin-top: 32px;
+}
+
+.boxGlance h2 {
+    color: #101010;
+    font-family: 'Inter';
+    font-size: 28px;
+    padding-top: 5px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.boxGlance h3 {
+    color: #101010;
+    font-family: 'Inter';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+    /* 154.545% */
+    padding-top: 10px;
+}
+
+/* Transparent in Every Step — Our Process Unveiled css */
+
+.transparent-sec {
+    background: #613FE5;
+    padding: 80px 0px;
+margin-bottom: 120px;
+}
+
+.unvield h2 {
+    color: #FFF;
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.unvield a {
+    background: #FFF;
+    display: block;
+    transition: 0.3s;
+    color: #000;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    border: 1px solid #fff;
+    padding: 14px 20px;
+    line-height: 34px;
+    /* 212.5% */
+    text-transform: uppercase;
+    width: fit-content;
+    margin-top: 40px;
+
+}
+
+.unvield a:hover {
+    background: none;
+    color: #fff;
+}
+
+.ensure h3 {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    /* 166.667% */
+}
+
+
+
+/* FAQs on Mobile App Development  css*/
+
+/* FAQs on Mobile App Development  css*/
+.faq-sec {
+    padding: 128px 0px;
+    padding-top: 0;
+}
+.faq-Hd h2{
+    font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 800;
+font-size: 60px;
+text-align: center;
+color: #101010;
+}
+.faq-Hd h3{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 187%;
+text-align: center;
+max-width: 1001px;
+margin: 0 auto;
+padding-top: 25px;
+}
+
+.faq-accordian{
+    margin-top: 36px;
+}
+
+
+.boxAccordian-b{
+    border-radius: 16px;
+border: 1px solid #EDEDED;
+background: #FFF;
+padding: 26px 30px 26px 30px;
+margin-top: 24px;
+}
+.boxAccordian-b h2{
+    color: #101010;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: 'Inter';
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 28px; /* 140% */
+}
+.boxAccordian-b h3{
+    margin-top: 10px;
+    color: #6F6F6F;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+
+
+
+/* contact Us Form */
+.built-it-together {
+    margin-bottom: 120px;
+}
+
+.letBuild-Together {
+    border-radius: 64px;
+    background: #F7F7FC;
+    padding: 86px 60px;
+}
+
+.hd-buildIt h2 {
+    color: #202020;
+    font-family: 'Playfair Display';
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 84px;
+    /* 131.25% */
+}
+
+.hd-buildIt h3 {
+    color: #202020;
+    font-family: 'Inter';
+    font-size: 22px;
+    font-style: normal;
+    max-width: 482px;
+    margin-top: 14px;
+    font-weight: 500;
+    line-height: 36px;
+    /* 163.636% */
+}
+
+.ratingClutch {
+    margin-top: 51px;
+}
+
+.reviews h2 {
+    color: #949CA8;
+    font-family: 'Inter';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30.06px;
+    /* 167% */
+    letter-spacing: -0.5px;
+    margin-top: 14px;
+
+}
+
+.reviews img {
+    mix-blend-mode: luminosity;
+    opacity: 0.7;
+}
+
+.nameInput input {
+    padding: 0px 20px;
+    background: none;
+    color: #000;
+    border-radius: 12px;
+    border: 1px solid #C7C7C9;
+    height: 60px;
+}
+
+.nameInput textarea {
+    border-radius: 12px;
+    background: none;
+    border: 1px solid #C7C7C9;
+    padding: 23px 20px;
+    resize: none;
+    height: 210px;
+    margin-top: 30px;
+}
+
+.privacyPolicy {
+    margin-top: 42px;
+}
+
+.txtPrivacy {
+    color: #969696;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.5px;
+    margin-top: 10px;
+    max-width: 204px;
+}
+
+.txtPrivacy a {
+    color: #969696;
+    text-decoration-line: underline;
+}
+
+.send-Msg {
+    text-align: end;
+}
+
+.send-Msg a {
+    display: block;
+    background: #101010;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Playfair Display';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    transition: 0.3s;
+    padding: 19px 44px;
+    transition: 0.3s;
+    border: 1px solid #101010;
+}
+
+.send-Msg a:hover {
+    color: #101010;
+    background: none;
+}
+
+.nameInput input:focus {
+    border: 1px solid #5551FF !important;
+}
+
+.nameInput textarea:focus {
+    border: 1px solid #5551FF !important;
+}
+
+
+
+
+
+/* responsive  css */
+
+
+
+@media (max-width:1280px) {
+
+    .positionrelative::after {
+        display: none;
+    }
+}
+
+
+@media (max-width:1024px) {
+    .discovery-Hd {
+        max-width: 420px;
+    }
+    .send-Msg a {
+        font-size: 14px;
+        padding: 19px 0px;
+    }
+    .letBuild-Together {
+        border-radius: 34px;
+        background: #F7F7FC;
+        padding: 36px 30px;
+    }
+
+    .built-it-together {
+        margin-bottom: 60px;
+    }
+    .float-end.support {
+        float: left !important;
+    }
+
+    .swiper-pagination-vertical.swiper-pagination-bullets {
+        right: 2% !important;
+    }
+
+  
+
+    .heading-txt {
+        font-size: 52px;
+    }
+
+    .heding-hero h2 {
+        font-size: 35px;
+    }
+
+    .heding-hero p {
+        margin-top: 15px;
+        font-size: 20px;
+        line-height: 36px;
+    }
+
+    .heding-solution::after {
+        right: 0;
+    }
+
+    .android-app-box h4 {
+        font-size: 18px;
+    }
+
+    .android-app-box p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .solutions-icon img {
+        margin-right: 15px;
+        width: 52px;
+    }
+
+    .project-Hd h5 {
+        font-size: 47px;
+        line-height: 60px;
+    }
+
+    .heding-solution h3 {
+        font-size: 37px;
+        line-height: 57px;
+    }
+
+    .design-devlopement h4 {
+        font-size: 24px;
+    }
+
+    .design-devlopement p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .our-project-sec {
+        padding: 80px 0px;
+    }
+
+    .ourProject {
+        font-size: 48px;
+    }
+
+    .boxhero-content {
+        margin-top: 0;
+    }
+
+    .one {
+        padding: 10px 25px;
+    }
+
+    .delaver-app p {
+        font-size: 18px;
+        line-height: 36px;
+    }
+
+    .mobil-app-Hd h5 {
+        font-size: 48px;
+        line-height: 74px;
+
+    }
+
+    .mobile-app-sec {
+        padding: 60px 0px 60px;
+        background: #fff;
+    }
+
+    .txt-transform h2 {
+        font-size: 32px;
+        line-height: 52px;
+    }
+
+    .transform_your_business-sec {
+        padding: 80px 0px 80px;
+    }
+
+    .txt-transform p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .faq-sec {
+padding-bottom: 60px;
+padding-top: 0px;
+    }
+
+    .faq-Hd h6 {
+        font-size: 50px;
+    }
+
+    .contact-Hd h5 {
+        font-size: 34px;
+        line-height: 48px;
+    }
+
+    .box-design {
+        min-height: 326px;
+    }
+
+    footer {
+        padding: 50px 0px 24px;
+    }
+
+    .delaver-app a button {
+        margin-top: 20px;
+    }
+
+    .heroHd h1 {
+        font-size: 58px;
+        line-height: 76px;
+    }
+
+    .delaver-app h2 {
+        font-size: 34px;
+    }
+
+    .serviceHeading h2 {
+        font-size: 50px;
+    }
+
+    .serviceHeading::after {
+        right: 1%;
+        top: 0;
+    }
+
+    .ourApprochBox {
+        padding: 15px;
+    }
+
+    .ourApprochBox h2 {
+        font-size: 20px;
+    }
+
+    .ourApprochBox h3 {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .sliderClients .swiper-button-prev {
+        left: 88%;
+    }
+
+    .boxImgLogo img {
+        max-width: 60px;
+    }
+
+    .clientsSay-sec {
+        padding: 60px 0px 60px;
+    }
+
+    .ourClientHd h2 {
+        font-size: 50px;
+    }
+
+    .appeningPeople h2 {
+        font-size: 34px;
+    }
+
+    .appeningPeople h3 {
+        font-size: 24px;
+        line-height: 38px;
+    }
+
+    .appeningGlance-sec {
+        padding: 60px 0px 60px;
+    }
+
+    .glanceHd h2 {
+        font-size: 50px;
+    }
+
+    .glanceHd h3 {
+        font-size: 20px;
+        line-height: 34px;
+    }
+
+    .ensure h3 {
+        font-size: 20px;
+    }
+
+    .unvield h2 {
+        font-size: 38px;
+    }
+
+    .faq-Hd h2 {
+        font-size: 50px;
+    }
+
+    .boxGlance {
+        padding: 20px;
+        line-height: 30px;
+    }
+
+    .boxGlance h3 {
+        font-size: 20px;
+    }
+
+    .letBuild-Together {
+        padding: 46px 20px;
+    }
+
+    .send-Msg a {
+        padding: 19px 4px;
+    }
+
+    .txtPrivacy {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 912px) {
+    .ourApprochBox h3 {
+        min-height: 167px;
+    }
+
+    .boxGlance h3 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .boxGlance h2 {
+        font-size: 24px;
+    }
+
+    .reviews h2 {
+        font-size: 14px;
+    }
+
+    .unvield h2 {
+        font-size: 35px;
+    }
+
+    .imgCompanyName {
+        margin-left: 0;
+    }
+
+    .box-ClientSay {
+        padding: 30px;
+    }
+
+    .pl-app {
+        padding-left: 0;
+    }
+
+    .our-project-sec {
+        padding: 60px 0px;
+    }
+
+    .delaver-app h2 {
+        font-size: 32px;
+    }
+
+    .pr-app {
+        padding-right: 0;
+    }
+
+    .android-app-box p {
+        min-height: 74px;
+    }
+
+    .heding-hero {
+        max-width: 100%;
+    }
+
+    .hero-img {
+        text-align: center;
+        padding-top: 80px;
+    }
+
+    .heding-hero p {
+        max-width: 100%;
+    }
+
+    .technologies-sec {
+        padding: 80px 0px 80px;
+    }
+
+    .box-design {
+        min-height: 270px;
+    }
+
+    .txt-transform h2 {
+        max-width: 100%;
+    }
+
+    .txt-transform p {
+        max-width: 100%;
+    }
+
+    .app_developmentCompnay-img {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+}
+
+@media(max-width:834px) {
+    .transparent-sec{
+        margin-bottom: 60px;
+    }
+    .technologies-sec {
+        padding: 10px 0px 10px;
+        margin-top: 54px;
+        background: #101010;
+    }
+
+    .delaver-app h3 {
+        font-size: 20px;
+    }
+
+    .denmarkButton button.denmark {
+        padding: 9px 9px;
+        margin-right: 6px;
+        position: relative;
+        top: -2px;
+    }
+
+    .heroHd h1 {
+        font-size: 50px;
+        line-height: 69px;
+    }
+
+    .clutchDevelopers h5 {
+        font-size: 14px;
+    }
+
+    .serviceHeading h3 {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    .ourApprochBox h3 {
+        -webkit-line-clamp: 7;
+    }
+
+    .heroHd h2 {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    .ourClientHd h2 {
+        font-size: 46px;
+    }
+
+    .sliderClients .swiper-button-prev {
+        left: 85%;
+    }
+
+    .clientXT h4 {
+        font-size: 20px;
+        line-height: 36px;
+    }
+
+    .ourApprochBox h2 {
+        font-size: 18px;
+    }
+
+    .clutchDevelopers h4 {
+        font-size: 16px;
+    }
+
+    .ourApprochBox h3 {
+        font-size: 14px;
+        line-height: 26px;
+    }
+
+    .boxImgLogo img {
+        max-width: 48px;
+    }
+
+    .delaver-app a button {
+        font-size: 14px;
+        padding: 12px 18px;
+    }
+
+    .delaver-app p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .delaver-app h2 {
+        font-size: 28px;
+        margin-top: 10px;
+    }
+
+    .passionate h2 {
+        font-size: 20px;
+        line-height: 34px;
+    }
+
+    .unvield h2 {
+        font-size: 32px;
+        line-height: 55px;
+    }
+
+    .hd-buildIt h2 {
+        font-size: 52px;
+        line-height: 70px;
+    }
+
+    .ensure h3 {
+        font-size: 18px;
+        line-height: 34px;
+    }
+
+    .hd-buildIt h3 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .denmarkButton button {
+        font-size: 16px;
+    }
+
+    .txtPrivacy {
+        font-size: 14px;
+    }
+
+    .send-Msg a {
+        font-size: 14px;
+        padding: 14px 5px;
+    }
+
+    .delaver-app h3 {
+        font-size: 16px;
+    }
+
+
+}
+
+@media(max-width:820px) {
+
+    .hero_Hd-sec {
+        padding: 110px 0px 100px 0px;
+    }
+
+    .heading-txt {
+        line-height: 72px;
+        font-size: 44px;
+    }
+
+    .hero-content {
+        padding-top: 60px;
+    }
+
+    .heding-hero h2 {
+        font-size: 32px;
+        text-align: center;
+        line-height: 54px;
+    }
+
+    .heding-hero p {
+        text-align: center;
+    }
+
+    .heding-solution::after {
+        display: none;
+    }
+
+    .heding-solution {
+        text-align: center;
+    }
+
+    .android-app-box {
+        text-align: center;
+    }
+
+    .heding-solution h3 {
+        margin: 0 auto;
+    }
+
+    .technologies-bg p {
+        margin: 0 auto;
+        max-width: 600px;
+        display: block;
+        padding-top: 20px;
+        text-align: center;
+        font-size: 16px;
+        line-height: 38px;
+    }
+
+    .flex-service {
+        justify-content: space-around;
+    }
+
+    .language h6 {
+        font-size: 18px;
+    }
+
+    .project-details {
+        padding: 60px 0px;
+    }
+
+    .project-Hd h5 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .project-Hd p {
+        font-size: 18px;
+        line-height: 35px;
+    }
+
+    .box-design {
+        text-align: center;
+    }
+
+    .our-project-sec {
+        padding: 60px 0px;
+    }
+
+    .flexDenmark {
+        align-items: baseline;
+    }
+
+    .ourProject {
+        font-size: 44px;
+    }
+
+    .delaver-app h3 {
+        margin-top: 20px;
+        font-size: 20px;
+    }
+
+    .one {
+        padding: 5px 20px;
+    }
+
+    .delaver-app h2 {
+        font-size: 30px;
+        margin-top: 10px;
+    }
+
+    .delaver-app p {
+        font-size: 16px;
+        line-height: 36px;
+    }
+
+    .assets-txt {
+        padding: 60px 0px;
+    }
+
+    .assets-txt h5 {
+        font-size: 32px;
+        line-height: 48px;
+    }
+
+    .process-Hd h4 {
+        font-size: 37px;
+        line-height: 56px;
+    }
+
+    .process-Hd {
+        margin: 60px 0px 60px 0px;
+    }
+
+    .ptb-100 {
+        margin: 60px 0px 60px 0px;
+    }
+
+    .mobil-app-Hd h5 {
+        font-size: 42px;
+        line-height: 63px;
+    }
+
+    .mobile-app-sec {
+        padding: 50px 0px 50px;
+    }
+
+    .txt-transform {
+        text-align: center;
+    }
+
+    .faq-sec {
+        padding: 0px;
+        padding-bottom: 50px;
+    }
+
+    .faq-Hd h6 {
+        font-size: 40px;
+    }
+
+    .contact-sec {
+        padding: 60px 0px 60px;
+    }
+
+    .appeningPeople h3 {
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .delaver-app h2 {
+        font-size: 26px;
+        line-height: 37px;
+    }
+
+    .delaver-app p {
+        font-size: 15px;
+        line-height: 28px;
+    }
+
+    .letBuild-Together {
+        border-radius: 14px;
+    }
+
+    .built-it-together {
+        margin-bottom: 68px;
+    }
+
+    .unvield h2 {
+        font-size: 30px;
+    }
+
+    .unvield a {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    .transparent-sec {
+        padding: 50px 0px;
+    }
+
+
+
+
+
+
+
+}
+
+@media (max-width:768px) {
+    .flexDenmark {
+        display: block;
+    }
+
+    .denmarkButton {
+        margin-top: 10px;
+    }
+
+    .accordion-button {
+        font-size: 19px;
+    }
+
+    .delaver-app p {
+        font-size: 14px;
+        line-height: 23px;
+        margin-top: 5px;
+    }
+
+    .delaver-app a button {
+        padding: 10px 22px;
+        font-size: 14px;
+    }
+
+    .heroHd h1 {
+        font-size: 45px;
+        line-height: 66px;
+    }
+
+    .serviceHeading::after {
+        top: -30px;
+    }
+
+    .ourApprochBox h2 {
+        font-size: 17px;
+    }
+
+    .boxImgLogo img {
+        max-width: 45px;
+    }
+
+    .boxGlance h2 {
+        font-size: 22px;
+    }
+
+    .unvield h2 {
+        font-size: 29px;
+    }
+
+    .dedicated-Partner-sec {
+        padding-top: 120px;
+        padding-bottom: 0;
+    }
+
+    .clientDenmark {
+        font-size: 16px;
+    }
+
+    .reviewOn a {
+        padding: 12px 17px;
+        padding-top: 5px;
+        font-size: 14px;
+    }
+
+    .meetTeams a {
+        padding: 13px 21px;
+        font-size: 14px;
+    }
+
+    .vCs a {
+        padding: 12px 17px;
+        padding-top: 5px;
+        font-size: 14px;
+    }
+
+    .ceoCross h3 {
+        font-size: 20px;
+    }
+
+    .ceoCross h2 {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .built-it-together {
+        margin-bottom: 60px;
+    }
+    .boxAccordian-b{
+        padding: 20px;
+        margin-top: 20px;
+    }
+    .boxAccordian-b h2{
+        font-size: 14px;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    }
+    .boxAccordian-b h3{
+        color: #6F6F6F;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 12px;
+    
+    font-weight: 400;
+    line-height: 24px; /* 200% */
+    }
+    .serviceSec {
+        padding: 30px 0px;
+    }
+    .serviceHeading h2{
+font-size: 32px;
+    }
+    .serviceHeading h3{
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .ourApprochBox h3 {
+        min-height: auto;
+    }
+    .boxImgLogo {
+        margin-top: 60px;
+    }
+    .ourApprochBox h3 {
+        -webkit-line-clamp: initial;
+    }
+    .serviceHeading::after{
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 44px;
+        height: 48px;
+        left: 35%;
+        top: -14px;
+        right: auto;
+    }
+    .ourClientHd h2{
+        font-size: 32px;
+        line-height: 46px; /* 143.75% */
+        max-width: 277px;
+        margin: 0 auto;
+    }
+    .delaver-app p{
+        margin-top: 10px;
+    }
+    .moreCase-Studies a{
+        width: 100%;
+        font-size: 14px;
+        padding: 0px 11px;
+    }
+    .heroHd h1 {
+        color: #101010;
+        max-width: 327px;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 46px;
+        /* 143.75% */
+    }
+    .sliderClients{
+        margin-top: 30px;
+    }
+    .box-ClientSay {
+        padding: 20px;
+    }
+    .clientXT h4{
+font-size: 14px;
+line-height: 26px; /* 185.714% */
+    }
+    .sliderClients .swiper-wrapper {
+        padding-bottom: 58px !important;
+    }
+    .sliderClients .swiper-button-prev {
+        left: 70%;
+    }
+    .sliderClients .swiper-button-next::after{
+        width: 30px;
+        height: 30px;
+    }
+    .sliderClients .swiper-button-prev::after{
+        width: 30px;
+        height: 30px;
+    }
+    .sliderClients .swiper-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic, .swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic{
+        left: 15%;
+    }
+    .reviewStudyButton{
+        margin-top: 30px;
+    }
+    .reviewStudyButton .vCs{
+        margin-top: 12px;
+    }
+    .reviewOn a{
+        width: 100%;
+        text-align: center;
+    }
+    .vCs a{
+        width: 100%;
+        text-align: center;
+    }
+    .reviewStudyButton{
+        display: block;
+    }
+    .clientXT{
+        margin-top: 14px;
+    }
+    .clientDenmark {
+        font-size: 16px;
+        background: #fff;
+        line-height: 0;
+        padding: 0px 6px 0px 6px;
+        display: flex;
+        align-items: center;
+    }
+    .clientDenmark img{
+        margin-right: 4px;
+    }
+    .ceoCross h3{
+        font-size: 14px;
+    }
+    .topMobileApp {
+        margin-top: 20px;
+    }
+    .ceoCross h2 a img{
+        width: 14px;
+        height: 14px;
+        display: inline-block;
+    }
+    .ceoCross h2{
+        font-size: 16px;
+    }
+    .getInTouch {
+        margin-top: 16px;
+    }
+
+    .clutchFlex {
+        flex-wrap: wrap;
+        display: block;
+    }
+
+    .heroHd h2 {
+        font-size: 14px;
+        margin-top: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        /* 185.714% */
+    }
+
+    .dedicated-Partner-sec {
+        padding-top: 98px;
+    }
+
+    .getInTouch a {
+        font-size: 14px;
+        font-weight: 500;
+        margin-top: 40px;
+        text-transform: uppercase;
+        padding: 12px 15px;
+    }
+
+    .imgCompanyName {
+        position: absolute;
+        top: 60%;
+        right: 20px;
+    }
+
+    .imgCompanyName img {
+        width: 149.914px;
+        height: 148.914px;
+    }
+
+
+    #button-bottom {
+        position: absolute;
+        left: 27%;
+        bottom: 0;
+        transform: translate(-50%, 70px);
+        display: block;
+    }
+
+    .boxhero-content {
+        margin-top: 70px;
+    }
+
+    .boxhero-travel.mt-sec {
+        margin-top: 0;
+    }
+
+    .discovery-Hd {
+        margin-top: 10px;
+    }
+
+    .heading-txt {
+        line-height: 60px;
+        font-size: 36px;
+    }
+
+    .heding-hero h2 {
+        font-size: 25px;
+        line-height: 42px;
+    }
+
+    .heding-hero p {
+        margin-top: 15px;
+        font-size: 16px;
+        line-height: 32px;
+    }
+
+    .hero-img {
+        padding-top: 40px;
+    }
+
+    .hero_Hd-sec {
+        padding: 100px 0px 50px 0px;
+    }
+
+    .heding-solution h3 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+
+    .heding-solution p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .android-app-box {
+        margin-top: 30px;
+        padding: 18px;
+    }
+
+    .solutions-sec {
+        margin-bottom: 40px;
+    }
+
+    .technologies-sec {
+        padding: 10px 0px 20px;
+        background: #101010;
+    }
+
+    .technologies-Hd {
+        font-size: 30px;
+        line-height: 50px;
+    }
+
+    .technologies-bg {
+        padding-top: 36px;
+        padding-bottom: 36px;
+    }
+
+    .technologies-bg p {
+        font-size: 15px;
+        line-height: 32px;
+    }
+
+    .language h6 {
+        font-size: 16px;
+    }
+
+    .iconTxt {
+        font-size: 12px;
+    }
+
+    .project-Hd h5 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .project-details {
+        padding: 50px 0px;
+    }
+
+    .project-Hd p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .box-design {
+        padding: 28px;
+    }
+
+    .our-project-sec {
+        padding: 90px 0px;
+        padding-bottom: 80px;
+    }
+    .moreCase-Studies{
+        margin-top: 120px;
+    }
+    .denmarkButton {
+        margin-top: 16px;
+    }
+    .ourProject {
+        font-size: 32px;
+        text-align: left;
+    }
+    .healthcare img {
+        width: 40px;
+    }
+
+    .healthcare p {
+        font-size: 10px;
+    }
+
+    .one {
+        margin: 0 auto;
+    }
+
+    .boxhero-content {
+        text-align: left;
+    }
+
+    .boxhero-travel {
+        margin-top: 50px;
+    }
+    .boxhero-travel.mt-sec .boxhero-content {
+        margin-top: 40px;
+    }
+    .boxhero-img {
+        margin-top: 50px;
+    }
+
+    .process-Hd {
+        margin: 20px;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .process-Hd h4 {
+        font-size: 30px;
+        line-height: 50px;
+    }
+
+    .process-Hd p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .ptb-100 {
+        margin: 0;
+    }
+
+   
+
+    .discovery-Hd {
+        max-width: 100%;
+    }
+
+    .assets-txt a button {
+        font-size: 14px;
+        padding: 15px 26px;
+    }
+
+    .mobil-app-Hd h5 {
+        font-size: 32px;
+        line-height: 54px;
+    }
+
+    .mobil-app-Hd p {
+        font-size: 16px;
+        line-height: 175%;
+        margin-top: 10px;
+    }
+
+    .transform_your_business-sec {
+        padding: 50px 0px 50px;
+    }
+
+    .txt-transform h2 {
+        font-size: 30px;
+        line-height: 46px;
+    }
+
+    .faq-sec {
+        padding: 30px 0px;
+    }
+
+    .faq-Hd h6 {
+        font-size: 30px;
+        line-height: 46px;
+    }
+
+
+    .button-Send {
+        margin-top: 6px;
+    }
+
+    .button-Send button {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    footer {
+        padding: 50px 0px 24px;
+        text-align: center;
+    }
+
+    .footer-detail p {
+        margin: 0 auto;
+    }
+
+    .flex-Social-icon {
+        justify-content: center;
+    }
+
+    .quickLink {
+        margin-top: 30px;
+    }
+
+    .quickLink ul {
+        margin-top: 20px;
+    }
+
+    .quickLink .d-flex {
+        display: block !important;
+    }
+    .passionate h2{
+font-size: 14px;
+text-align: left;
+margin-top: 10px;
+line-height: 26px; /* 185.714% */
+    }
+    .quickLink .flex-grow-1 {
+        margin-left: 0rem !important;
+        margin-top: 5px;
+    }
+
+.appening-People-sec{
+    padding: 30px 0px;
+}
+
+.appeningPeople h2{
+    font-size: 32px;
+    max-width: 277px;
+    margin: 0 auto;
+    line-height: 46px; /* 143.75% */
+}
+.appeningPeople h3{
+font-size: 16px;
+line-height: 137.523%;
+}
+
+.team-a-slider{
+margin-top: 30px;
+}
+.team-a-slider .swiper::before{
+    width:108px;
+height: 100%;
+}
+.team-a-slider .swiper::after{
+    width:108px;
+height: 100%;
+}
+.team-a-slider .sliderimg-1 img{
+    width: 434px;
+height: 96px;
+}
+.team-a-slider .swiper-button-next::after{
+    width: 20px;
+    height: 20px;  
+}
+.meetTeams{
+    margin-top: 0;
+}
+.team-a-slider .swiper-button-next {
+    top: var(--swiper-navigation-top-offset,31%);
+}
+
+.team-a-slider .swiper-button-prev {
+    top: var(--swiper-navigation-top-offset,31%);
+}
+.glanceHd h2{
+    font-size: 32px;
+    max-width: 277px;
+    margin: 0 auto;
+    display: block;
+    line-height: 46px; /* 143.75% */
+}
+.unvield h2{
+font-size: 29px;
+line-height: 46px; /* 143.75% */
+}
+.faq-Hd h2{
+font-size: 32px;
+line-height: 46px; /* 143.75% */
+}
+.faq-accordian .accordion-button{
+    font-size: 14px;
+}
+.faq-accordian .collapsed {
+    padding: 20px 10px;
+}
+.faq-accordian .accordion-button:not(.collapsed){
+    padding-top: 20px;
+}
+.faq-accordian .accordion-button{
+    padding: 20px;
+}
+.faq-accordian .accordion-body{
+    font-size: 14px;
+    padding: 0px 20px 20px 20px;
+}
+.letBuild-Together{
+    padding: 30px 20px;
+}
+.hd-buildIt h2{
+max-width: 294px;
+font-size: 32px;
+text-align: center;
+margin: 0 auto;
+line-height: 46px; /* 143.75% */
+}
+.hd-buildIt h3{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+line-height: 26px; /* 185.714% */
+}
+.reviews img{
+    width: 82px;
+height: 23px;
+}
+.formInput{
+    margin-top: 15px;
+}
+.nameInput textarea {
+    border-radius: 0;
+    margin-top: 15px;
+}
+.privacyPolicy {
+    margin-top: 18px;
+}
+.txtPrivacy{
+    color: #000;
+}
+.txtPrivacy a{
+    color: #000;
+}
+.nameInput input{
+    margin-top: 15px;
+}
+.ratingClutch {
+    margin-top: 20px;
+    text-align: center;
+}
+.send-Msg a{
+    margin-top: 30px;
+}
+.reviews h2 {
+    font-size: 12px;
+    margin-top: 4px;
+}
+.ensure h3{
+font-size: 14px;
+line-height: 26px;
+margin-top: 10px;
+}
+.unvield a{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 27px;
+}
+.transparent-sec{
+    padding: 30px 0px;
+    padding-bottom: 100px;
+    position: relative;
+}
+.unvield a{
+    position: absolute;
+    bottom: 0;
+}
+.boxGlance{
+    margin-top: 20px;
+    min-height: auto;
+}
+.boxGlance h3{
+font-size: 14px;
+line-height: 26px; /* 185.714% */
+}
+.boxGlance h2{
+font-size: 18px;
+font-weight: 700;
+line-height: 174.023%; /* 31.324px */
+}
+.boxGlance img{
+    width: 42px;
+    height: 42px;
+}
+.glanceHd h3{
+    margin-top: 10px;
+font-size: 14px;
+line-height: 26px; /* 185.714% */
+}
+.team-a-slider .swiper-button-prev::after {
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+}
+
+.meetTeams a{
+    width: 100%;
+    padding: 7px 21px;
+    font-size: 14px;
+}
+
+
+}
+
+@media (max-width:430px) {
+ 
+}
+
+@media (max-width:414px) {
+    .discovery-Hd {
+        padding: 10px 14px 20px;
+    }
+    #button-bottom{left: 25%;}
+    .swiper-pagination-vertical.swiper-pagination-bullets {
+        bottom: -4%;
+    }
+
+    .delaver-app a button span {
+        padding-left: 2px;
+        font-size: 16px;
+    }
+
+    .delaver-app a button {
+        padding: 10px 22px;
+        font-size: 12px;
+    }
+}
+@media (max-width:390px){
+    #button-bottom {
+        left: 27%;
+    }
+}
+@media (max-width:360px) {
+    #button-bottom {
+        left: 29%;
+    }
+}
+
+@media (max-width:320px) {
+    .healthcare p {
+        font-size: 8px;
+    }
+
+    .sliderClients .swiper-button-prev {
+        left: 65%;
+    }
+
+    .discovery-Hd h5 {
+        font-size: 20px;
+    }
+
+    .delaver-app a button {
+        padding: 10px 13px;
+    }
+}

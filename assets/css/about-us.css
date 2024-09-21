@@ -1,0 +1,479 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&display=swap');
+/* font-family: 'Playfair Display', serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+/* font-family: 'Inter', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+
+.award-sec{
+    padding-top: 114px;
+    padding-bottom: 120px;
+}
+
+.award-Hd h2{
+    color: #101010;
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+    line-height: 40px; /* 181.818% */
+    text-transform: uppercase;
+}
+.award-Hd h1{
+    color: #101010;
+text-align: center;
+font-family: 'Playfair Display', serif;
+font-size: 64px;
+font-style: normal;
+margin: 0 auto;
+font-weight: 800;
+max-width: 852px;
+margin-top: 10px;
+line-height: 82px; /* 128.125% */
+}
+.sixPlus{
+    text-align: center;
+    margin-top: 24px;
+    border-radius: 32px;
+background: #FCF8FF;
+padding: 41px 0px 24px 0px;
+}
+.yearBusines{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.yearBusines span{
+    padding-left: 10px;
+    color: #1B1B1B;
+text-align: center;
+font-family: 'Inter', sans-serif;
+font-size: 40px;
+font-style: normal;
+font-weight: 900;
+}
+.sixPlus h2{
+    color: #1B1B1B;
+    font-family: 'Playfair Display', serif;
+font-size: 24px;
+font-style: normal;
+margin-top: 17px;
+font-weight: 700;
+}
+.project-Deliverd{
+    margin-top: 36px;
+}
+
+/* about us css */
+
+
+.sec-AboutUs{
+    background: #000;
+    padding: 66px 0px 80px;
+}
+.contentabout{
+    margin-top: 30px;
+}
+.contentabout h2{
+position: relative;
+color: #FFF;
+font-family: 'Playfair Display', serif;
+font-size: 48px;
+font-style: normal;
+font-weight: 800;
+}
+.contentabout h2::before{
+    position: absolute;
+    content: '';
+    top: 0;
+    width: 48px;
+    height: 44px;
+    background-image: url(../images/Vector-about.png);
+    left: 16%;
+}
+.contentabout h3{
+    margin-top: 30px;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px; /* 166.667% */
+}
+
+/* Awards & Recognition */
+
+
+.awardRecognition{
+    padding: 120px 0px 140px;
+}
+.awardRecognition-Hd{
+    color: #101010;
+text-align: center;
+font-family: 'Playfair Display', serif;
+font-size: 60px;
+font-style: normal;
+font-weight: 800;
+}
+.providerGlobal{
+    max-width: 153px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.providerGlobal h2{
+    color: #101010;
+    font-family: 'Playfair Display', serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+text-align: center;
+}
+
+.providerGlobal h3{
+    color: #000;
+font-family: 'Inter', sans-serif;
+font-size: 14px;
+text-align: center;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; /* 142.857% */
+margin-top: 10px;
+}
+
+
+.flex-Cluth-award{
+   margin: 0 auto;
+    display: flex;
+    max-width: 1061px;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+/* Working Together to make work work better */
+
+.workBetter-Hd{
+    color: #1B1B1B;
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;
+    text-align: center;
+    line-height: normal;
+    margin: 0 auto;
+    display: block;
+    max-width: 758px;
+}
+
+.workBetter-Hd span{
+    font-style: italic;
+}
+.togetherimg img{
+width: 100%;
+margin-top: 60px;
+}
+
+/* Transparent in Every Step — Our Process Unveiled- CSS */
+
+.everyStep-sec{
+    background: #613FE5;
+    padding: 120px 0px;
+}
+.everyStep-hd h2{
+    max-width: 594px;
+    color: #FFF;
+    font-family: 'Playfair Display', serif;
+font-size: 60px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.everyStep-hd button{
+    background: #FFF;
+    transition: 0.3s;
+    color: #000;
+text-align: center;
+font-family: 'Inter', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+text-transform: uppercase;
+border: 1px solid #fff;
+padding: 15px 20px;
+margin-top: 30px;
+}
+.everyStep-hd button:hover{
+background: none;
+color: #fff;
+}
+.e-step-Content{
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+font-size: 24px;
+font-style: normal;
+padding-top: 20px;
+padding-left: 42px;
+font-weight: 500;
+line-height: 40px; /* 166.667% */
+}
+
+/* <!-- Our Values CSS--> */
+
+.ourValues-Sec{
+background: #fff;
+padding: 120px 0px 200px;
+}
+
+.hd-ourValue{
+    color: #1B1B1B;
+text-align: center;
+font-family: 'Playfair Display', serif;
+font-size: 60px;
+font-style: normal;
+font-weight: 800;
+padding-bottom: 20px;
+line-height: normal;
+}
+
+
+
+.innovation {
+    margin-top: 40px;
+}
+.innovation h2{
+    color: #101010;
+    font-family: 'Playfair Display', serif;
+font-size: 32px;
+font-style: normal;
+font-weight: 800;
+}
+.excellence{
+    margin-top: 74px;
+}
+
+.innovation h2 img{
+margin-right: 11px;
+}
+.innovation h2 {
+    color: #101010;
+    font-family: 'Playfair Display', serif;
+font-size: 32px;
+font-style: normal;
+font-weight: 800;
+display: flex;
+align-items: center;
+}
+
+.innovation p{
+    color: #101010;
+    font-family: 'Inter', sans-serif;
+font-size: 22px;
+margin-top:10px;
+max-width: 572px;
+font-style: normal;
+font-weight: 400;
+line-height: 34px; /* 154.545% */
+}
+
+
+
+
+
+
+
+
+   @media (max-width:1024px) {
+    .ourValues-Sec{
+        padding: 60px 0px;
+    }
+    .award-Hd h2{
+        font-size: 18px;
+    }
+    .award-Hd h1{
+        font-size: 50px;
+        margin-top: 0px;
+    line-height: 70px;
+    }
+    .contentabout h2::before{
+        left: 20%;
+    }
+    .everyStep-hd h2{
+        font-size: 48px;
+    }
+    .everyStep-sec{
+        padding: 80px 0px;
+    }
+    .innovation p{
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .innovation h2{
+        font-size: 24px;
+    }
+    .hd-ourValue{
+        font-size: 50px;
+    }
+    .excellence {
+        margin-top: 70px;
+    }
+    .e-step-Content{
+        font-size: 18px;
+        line-height: 32px;
+    }
+    .workBetter-Hd{
+        font-size: 50px;
+    }
+    .awardRecognition-Hd{
+        font-size: 50px;
+    }
+    .contentabout h3 {
+        margin-top: 20px;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 34px;
+    }
+    .awardRecognition {
+        padding: 60px 0px 60px;
+    }
+
+
+
+
+
+
+
+
+      }
+
+   @media (max-width:912px){
+    .award-sec{
+        padding-bottom: 60px;
+    }
+    .contentabout h2::before {
+        left: 22%;
+    }
+    .clutchTop-services img{
+        max-width: 150px;
+    }
+    .e-step-Content{
+        padding-top: 0;
+        padding-left: 0;
+    }
+    .excellence {
+        margin-top: 43px;
+    }
+    .everyStep-hd h2 {
+        font-size: 40px;
+    }
+    .providerGlobal h3{
+        font-size: 12px;
+    }
+   }
+
+   @media (max-width:834px){
+    .yearBusines span{
+        font-size: 26px;
+    }
+    .contentabout h2::before {
+        left: 26%;
+    }
+    .sixPlus h2{
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .everyStep-sec {
+        padding: 50px 0px;
+    }
+    .excellence {
+        margin-top: 30px;
+    }
+
+
+   }
+
+@media (max-width:820px){
+    .clutchTop-services img {
+        max-width: 130px;
+    }
+}
+
+   @media (max-width: 575.98px) {
+    .award-Hd h2 {
+        font-size: 16px;
+        line-height: 32px;
+    }
+    .flex-Cluth-award {
+        justify-content: space-evenly;
+        margin-top: 30px;
+        flex-wrap: wrap;
+    }
+    .award-Hd h1 {
+        font-size: 40px;
+        line-height: 56px;
+    }
+    .project-Deliverd {
+        margin-top: 24px;
+    }
+    .sec-AboutUs {
+        padding: 35px 0px 50px;
+    }
+    .sixPlus {
+        padding: 22px 0px 24px 0px;
+    }
+    .contentabout h2::before {
+        left: 55%;
+    }
+    .contentabout h2{
+        font-size: 40px;
+    }
+    .contentabout h3 {
+        margin-top: 15px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 32px;
+    }
+    .awardRecognition-Hd {
+        font-size: 38px;
+    }
+    .cluthImg{
+        margin-top: 30px;
+    }
+    .workBetter-Hd {
+        font-size: 32px;
+    }
+    .togetherimg img{
+        margin-top: 30px;
+    }
+    .everyStep-hd h2 {
+        font-size: 32px;
+    }
+
+    .everyStep-hd button{
+        position: absolute;
+        bottom: 40px;
+    }
+    .everyStep-sec{
+        padding-bottom: 130px;
+    }
+    .e-step-Content {
+        padding-top: 20px;
+    }
+    .hd-ourValue {
+        font-size: 38px;
+        padding-bottom: 0;
+    }
+
+
+
+
+   }
+
+   @media(max-width:320px){
+    .innovation h2 {
+        font-size: 20px;
+    }
+   }

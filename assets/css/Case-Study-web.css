@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&display=swap');
+/* font-family: 'Playfair Display', serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+/* font-family: 'Inter', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
+
+
+
+/*Resumod  css */
+
+.resumod-sec{
+    padding: 140px 0px 0px;
+}
+.buttonResumode a{
+    display: block;
+    border-radius: 12px;
+background: #01893E;
+color: #FFF;
+text-align: center;
+font-family: 'Playfair Display', serif;
+font-size: 32px;
+font-style: normal;
+width: fit-content;
+padding: 10px 13px;
+font-weight: 800;
+
+}
+.buttonResumode a:hover{
+    color: #fff;
+}
+
+.buttonStoreImg{
+    display: flex;
+    margin-top: 26px;
+    align-items: center;
+}
+.buttonStoreImg button{
+    border: 0;
+    margin-right: 12px;
+}
+
+.buttonResumode h1{
+    color: #101010;
+    font-family: 'Playfair Display', serif;
+font-size: 64px;
+font-style: normal;
+font-weight: 800;
+margin-top: 20px;
+}
+.buttonResumode h2{
+    margin-top: 20px;
+    color: #101010;
+    font-family: 'Inter', sans-serif;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+}
+.teaseImg{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.entertainment{
+    background: #E6F4EC;
+    width: 100%;
+    padding: 40px;
+}
+.teamMeber{
+    max-width: 833px;
+    margin: 0 auto;
+    display: block;
+}
+.flex-projectSate{
+    display: flex;
+    justify-content: space-between;
+}
+.contaryDenmark{
+    text-align: center;
+}
+.contaryDenmark h2{
+    color: #101010;
+    font-family: 'Inter', sans-serif;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+}
+.contaryDenmark h3{
+    color: #101010;
+    font-family: 'Inter', sans-serif;
+font-size: 20px;
+font-style: normal;
+margin-top: 10px;
+font-weight: 400;
+}
+
+
+
+.aboutProjectSec{
+    padding: 120px 0px 0px;
+}
+.aboutA-Hd{
+    margin-top: 20px;
+}
+.aboutA-Hd h2{
+    color: #101010;
+    font-family: 'Playfair Display', serif;
+font-size: 60px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.aboutA-Hd h3{
+    margin-top: 16px;
+    color: #101010;
+    font-family: 'Inter', sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px; /* 166.667% */
+}
+.project-aimg{
+    text-align: center;
+}
+.theChalnge{
+    margin-top: 60px;
+}
+
+.backgroundHD button{
+    background: #01893E;
+    display: block;
+    color: #FFF;
+    font-family: 'Playfair Display', serif;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+border: 0;
+padding: 5px 20px;
+}
+
+.bg-Hd p{
+    color: #101010;
+    font-family: 'Inter', sans-serif;
+font-size: 24px;
+font-style: normal;
+padding-left: 50px;
+padding-top: 30px;
+font-weight: 400;
+line-height: 36px; /* 150% */
+}
+
+.bg-Hd ul li{
+    position: relative;
+  padding-left: 90px;
+  color: #101010;
+  font-family: 'Inter', sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 36px;
+margin-top: 30px;
+}
+.bg-Hd ul li span{
+font-weight: 700;
+}
+.bg-Hd ul li::before {
+    position: absolute;
+    left: 50px;
+    content: '';
+    background-image: url(../images/listImg7.png);
+    background-repeat: no-repeat;
+    top: 4px;
+    width: 28px;
+    height: 24px;
+}
+
+
+.productFeatures-Sec{
+    background: #01893E;
+    padding: 80px 0px;
+    margin-top: 110px;
+}
+.pfHD h2{
+    color: #FFF;
+    font-family: 'Playfair Display', serif;
+font-size: 60px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.pfHD h3{
+    margin-top: 16px;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+}
+.navTab-Bg{
+    margin-top: 40px;
+}
+.navTab-Bg ul{
+    border-radius: 80px;
+background: #1A9551;
+}
+.navTab-Bg ul li button{
+    border: 0;
+    background: none;
+    padding: 17px 20px;
+    color: #FFF;
+
+    font-family: 'Inter', sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+}
+.navTab-Bg ul li button.active{
+padding: 12px 20px;
+    border-radius: 50px;
+    margin: 5px 6px;
+background: #F7F9FC;
+color: #101010;;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+}
+
+.contentPf{
+    margin-top: 53px;
+}
+.automationTXT{
+    margin-top: 40px;
+}
+
+.automationTXT h2{
+    color: #FFF;
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px; /* 140% */
+}
+.automationTXT h3{
+    margin-top: 10px;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 36px; /* 150% */
+}
+
+
+
+/* technology Stack CSS*/
+
+
+.technology-Stack-sec{
+ background: #F7F5FD;
+ margin-top: 80px;
+ padding: 100px 0px;
+}
+.stackhd h2{
+    color: #101010;
+    font-family: 'Playfair Display', serif;
+font-size: 42px;
+font-style: normal;
+font-weight: 800;
+line-height: 60px; /* 142.857% */
+}
+.stackhd h3{
+    color: #101010;
+    font-family: 'Inter', sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px; /* 166.667% */
+}
+.backfront{
+    margin-top: 60px;
+}
+.backendlogo h2{
+    color: #101010;
+    font-family: 'Playfair Display', serif;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+
+}
+.logoBACkend {
+    display: flex;
+align-items: center;
+flex-wrap: wrap;
+}
+.logoBACkend .nodeJs{
+    margin-right: 34px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.nodeJs h6{
+    text-align: center;
+   margin-top: 20px;
+   color: #101010;
+   font-family: 'Inter', sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+}
+.cloud-Infrastructure{
+    margin-top: 80px;
+}
+.nodeJs:last-child{
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+/* responsive  css */
+
+
+
+@media (max-width:1024px) {
+    .developmentProcess{
+        font-size: 44px;
+
+    }
+    .workFlow ul li{
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .contentProcess p {
+        font-size: 18px;
+        margin-top: 20px;
+        line-height: 30px;
+    }
+    .sprintPhase {
+        margin-top: 50px;
+    }
+
+    .sprintPhase h2{
+        font-size: 24px;
+    }
+    .workLoad ul li {
+        margin-top: 11px;
+        font-size: 18px;
+    }
+    .agile-sec {
+        margin: 100px 0px 80px;
+    }
+
+    .spintImg {
+        margin-top: 50px;
+    }
+
+}
+
+@media (max-width: 834px) {
+    .contentProcess {
+        margin-top: 28px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .developmentProcess {
+        font-size: 30px;
+    }
+    .contentProcess p {
+        font-size: 16px;
+        margin-top: 15px;
+        line-height: 28px;
+    }
+    .workFlow ul li {
+        font-size: 16px;
+        margin-top: 10px;
+        line-height: 28px;
+    }
+    .agile-sec {
+        margin: 100px 0px 50px;
+    }
+    .sprintPhase {
+        margin-top: 30px;
+    }
+    .workLoad ul{
+        margin-left: 28px;
+    }
+}

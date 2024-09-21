@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&display=swap');
+/* font-family: 'Playfair Display', serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+/* font-family: 'Inter', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
+
+
+
+/*Job Details css */
+
+.agile-sec{
+    margin: 140px 0px 200px;
+}
+.developmentProcess{
+    color: #111;
+text-align: center;
+font-family: 'Playfair Display', serif;
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 76.8px */
+}
+.contentProcess{
+    margin-top: 50px;
+}
+.contentProcess p{
+    color: #111;
+    font-family: 'Inter', sans-serif;
+font-size: 24px;
+font-style: normal;
+margin-top: 30px;
+font-weight: 400;
+line-height: 36px; /* 150% */
+}
+.contentProcess p span{
+    font-weight: 700;
+}
+.workFlow ul li{
+    color: #111;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px; /* 150% */
+    margin-top: 20px;
+    padding-left: 50px;
+    position: relative;
+}
+
+.workFlow ul li::before {
+    position: absolute;
+    left: 0px;
+    content: '';
+    background-image: url(../images/listImg.png);
+    background-repeat: no-repeat;
+    top: 4px;
+    width: 28px;
+    height: 24px;
+}
+.workFlow.preparation ul li::before {
+    background-image: url(../images/listImg3.png);
+}
+.workFlow ul li span{
+    font-weight: 700;
+}
+.spintImg{
+    margin-top: 80px;
+}
+.sprintPhase{
+    margin-top: 80px;
+}
+.sprintPhase h2{
+    color: #111;
+    font-family: 'Playfair Display', serif;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+background: rgba(218, 157, 255, 0.50);
+padding: 8px 20px;
+width: fit-content;
+}
+
+.sprintPhase.preparat h2{
+    background: rgba(242, 122, 109, 0.50);
+}
+
+.workLoad ul{
+list-style-type: circle;
+margin-left: 120px;
+}
+.workLoad ul li{
+    margin-top: 24px;
+    color: #111;
+    font-family: 'Inter', sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 36px; /* 150% */
+}
+.sprintPhase.stabilization h2{
+    background: rgba(132, 224, 164, 0.50);
+}
+
+.workFlow.f-testing ul li::before {
+    background-image: url(../images/listImg2.png);
+}
+.sprintPhase.deployment h2{
+    background: #ECCEFF;
+}
+.sprintPhase.hot-Fixes h2{
+background: #F8BCB6;
+}
+
+
+
+/* responsive  css */
+
+
+
+@media (max-width:1024px) {
+    .developmentProcess{
+        font-size: 44px;
+
+    }
+    .workFlow ul li{
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .contentProcess p {
+        font-size: 18px;
+        margin-top: 20px;
+        line-height: 30px;
+    }
+    .sprintPhase {
+        margin-top: 50px;
+    }
+
+    .sprintPhase h2{
+        font-size: 24px;
+    }
+    .workLoad ul li {
+        margin-top: 11px;
+        font-size: 18px;
+    }
+    .agile-sec {
+        margin: 100px 0px 80px;
+    }
+
+    .spintImg {
+        margin-top: 50px;
+    }
+
+}
+
+@media (max-width: 834px) {
+    .contentProcess {
+        margin-top: 28px;
+    }
+}
+
+
+@media (max-width: 575.98px) {
+    .developmentProcess {
+        font-size: 30px;
+    }
+    .contentProcess p {
+        font-size: 16px;
+        margin-top: 15px;
+        line-height: 28px;
+    }
+    .workFlow ul li {
+        font-size: 16px;
+        margin-top: 10px;
+        line-height: 28px;
+    }
+    .agile-sec {
+        margin: 100px 0px 50px;
+    }
+    .sprintPhase {
+        margin-top: 30px;
+    }
+    .workLoad ul{
+        margin-left: 28px;
+    }
+}
+
+@media (max-width:430px) {}
+
+@media (max-width:414px) {}
