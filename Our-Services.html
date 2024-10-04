@@ -16,7 +16,7 @@
 <body>
   <!-- # header -->
 
-  <div id="header" class="fixed-top">
+  <!-- <div id="header" class="fixed-top">
     <nav class="navbar navbar-expand-md" aria-label="Eleventh navbar example">
       <div class="container">
         <a class="navbar-brand" href="index.html">
@@ -38,21 +38,55 @@
             <li class="nav-item">
               <a class="nav-link" href="portfolio.html">Portfolio</a>
             </li>
-            <!-- <li class="nav-item">
-              <a class="nav-link" href="about-us.html">About</a>
-            </li> -->
+
             <li class="nav-item">
               <a class="nav-link" href="Job-Details.html">Careers</a>
             </li>
-            <!-- <li class="nav-item">
-              <a class="nav-link" href="https://appening.xyz/blog/">Blog</a>
-            </li> -->
+
 
           </ul>
           <form>
             <a href="contact.html"> <Button>Contact us</Button></a>
           </form>
         </div>
+      </div>
+    </nav>
+  </div> -->
+
+
+  <div id="header" class="fixed-top">
+    <nav class="navbar navbar-expand-md">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="assets/images/logo.png" alt="">
+        </a>
+        <button class="navbar-toggler" onclick="openNav()">
+          <span class="navbar-toggler-icon">
+            <i class="fa fa-bars"></i>
+          </span>
+        </button>
+
+        <div class="navbar-collapse sidenav" id="mySidenav" >
+          <a href="javascript:void(0)"  onclick="closeNav()" class="closebtn" >&times;</a>
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="Our-Services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Prortfolio</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="Job-Details.html">Careers</a>
+            </li>
+
+
+          </ul>
+          <form>
+            <a href="contact.html" id="contactUsButton-bottom"> <Button>Contact us</Button></a>
+          </form>
+        </div>
+
       </div>
     </nav>
   </div>
@@ -375,5 +409,7 @@
   <!-- Initialize Swiper -->
 
 </body>
+
+
 
 </html>
