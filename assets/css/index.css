@@ -301,7 +301,7 @@
 }
 
 .serviceSec {
-    background: #000;
+    background:#503d43;
     padding: 100px 0px;
 }
 
@@ -345,7 +345,7 @@
     margin-top: 40px;
     border-radius: 20px;
     padding: 30px;
-    background: #191919;
+    background: #507066;
 }
 
 .ourApprochBox h2 {
@@ -765,7 +765,7 @@
 /* Transparent in Every Step — Our Process Unveiled css */
 
 .transparent-sec {
-    background: #613FE5;
+    background: #503d43;
     padding: 80px 0px;
 margin-bottom: 120px;
 }
