@@ -301,7 +301,7 @@
 }
 
 .serviceSec {
-    background:#000;
+    background: #45526e;
     padding: 100px 0px;
 }
 
@@ -345,7 +345,7 @@
     margin-top: 40px;
     border-radius: 20px;
     padding: 30px;
-    background: #191919;;
+    background: #16153c33
 }
 
 .ourApprochBox h2 {
@@ -989,6 +989,7 @@ line-height: 28px; /* 140% */
     padding: 19px 44px;
     transition: 0.3s;
     border: 1px solid #101010;
+    border-radius: 44px
 }
 
 .send-Msg a:hover {
