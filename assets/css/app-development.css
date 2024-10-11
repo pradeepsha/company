@@ -58,8 +58,8 @@
 .heding-solution {
     position: relative;
 }
-.heding-solution::after {
-    background-image: url(../images/arrow.png);
+/* .heding-solution::after {
+    background-image: url(../images/carmatec.png);
     position: absolute;
     content: '';
     right: 23%;
@@ -67,6 +67,19 @@
     width: 93px;
     background-repeat: no-repeat;
     height: 100px;
+} */
+
+.heding-solution::after {
+    background-image: url(../images/carmatec.png);
+    /* background-image: url(../images/arrow.png); */
+    position: absolute;
+    content: '';
+    right: 1%;
+    top: 2%;
+    width: 387px;
+    background-repeat: no-repeat;
+    height: 276px;
+    border-radius: 37px;
 }
 .heding-solution h2 {
     max-width: 706px;

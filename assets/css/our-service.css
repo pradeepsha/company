@@ -45,7 +45,7 @@ margin-top: 20px;
 }
 .headingService a{
     display: block;
-    background: #1B1B1B;
+    background: #0e2464;
     width: fit-content;
     margin-top: 40px;
     color: #FFF;
@@ -57,6 +57,8 @@ font-weight: 600;
 text-transform: uppercase;
 padding: 14px 20px;
 transition: 0.3s;
+border-radius: 20px;
+
 }
 .headingService a img{
     padding-left: 8px;
@@ -380,7 +382,8 @@ margin-top: 130px;
             display: block;   
             font-size: 12px;
             padding: 12px 12px;
-             margin-top: 20px;
+            border-radius: 20px;
+             /* margin-top: 20px; */
         }
         .digitel-product h2{
             text-align: center;
