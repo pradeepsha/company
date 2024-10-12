@@ -23,6 +23,24 @@ body {
 
 }
 
+.custom-hover {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.custom-hover:hover {
+  color: #e91c1c; /* Change hover color here */
+}
+
+footer p, footer a {
+  font-size: 14px; /* Reduce paragraph and link size */
+}
+
+.services-grid{
+  padding-left: 0px;
+}
+
 a,
 a:hover {
   outline: none;
@@ -140,13 +158,13 @@ label {
 padding: 5px 0px;
 }
 .navbar-expand-md .navbar-nav .nav-link{
-  padding: 15px 25px;
+  padding: 15px 25px !important;
   font-size: 16px;
   font-weight: 500;
   white-space: nowrap;
   transition: 0.3s;
   position: relative;
-  color: #101010;
+  color: #b90f0f;
   font-family: 'Inter', sans-serif; 
 }
 .navbar-expand-md .navbar-nav .nav-link:hover{
