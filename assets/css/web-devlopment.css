@@ -227,6 +227,7 @@ text-align: center;
     padding: 40px;
     margin-top: 32px;
     min-height: 351px;
+    border: 1px solid #EDEDED;
 }
 .design-devlopement h4 {
     font-family: 'Inter';
@@ -427,7 +428,7 @@ transition: 0.3s;
     background: none;
 }
 .discovery-Hd {
-    background: rgb(97, 63, 229);
+    background: rgb(8 28 86);;
     border: 2px solid rgb(255, 255, 255);
     border-radius: 10px;
     transform: rotate(-2deg);
