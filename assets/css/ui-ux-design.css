@@ -14,18 +14,40 @@
     padding-top: 140px;
 }
 
-.exceptional-Hd h1 {
+/* .exceptional-Hd h1 {
     max-width: 1064px;
     margin: 0 auto;
     display: block;
     color: #101010;
     text-align: center;
     font-family: 'Playfair Display', serif;
-    font-size: 64px;
+    font-size: 61px;
     font-style: normal;
     font-weight: 800;
     line-height: 82px;
-    /* 128.125% */
+} */
+
+
+.exceptional-Hd h1 {
+    max-width: 1064px;
+    margin: 0 auto;
+    display: block;
+    background: linear-gradient(21deg, #1442a9, #ff3bd5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 57px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 82px;
+    letter-spacing: 1px;
+    /* text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.1); */
+    /* border: 2px solid rgba(255, 215, 59, 0.7); */
+    /* padding: 20px; */
+    /* border-radius: 15px; */
+    animation: fadeIn 2s ease-in-out;
+    text-shadow: 2px 2px 4px #00000047;
 }
 
 .exceptional-Hd h1 span {
@@ -44,7 +66,7 @@
     font-style: normal;
     font-weight: 800;
     line-height: 62px;
-    /* 147.619% */
+    text-shadow: 2px 2px 4px #00000047;
 }
 
 .product-Design h3 {
@@ -59,7 +81,8 @@
 }
 
 .designAgency {
-    background: #000;
+    /* background: #000; */
+    background: #45526e;
     padding: 80px 0px;
 }
 
@@ -98,7 +121,7 @@
 .conceptBox {
     margin-top: 32px;
     border-radius: 20px;
-    background: #242424;
+    background: #16153c33;
     padding: 36px 40px 44px 40px;
 }
 
@@ -132,6 +155,7 @@
     font-size: 42px;
     font-style: normal;
     font-weight: 800;
+    text-shadow: 2px 2px 4px #00000047;
 }
 
 .ourProcess-ui h6 {
@@ -144,6 +168,7 @@
     line-height: 40px;
     /* 181.818% */
     margin-top: 20px;
+    text-shadow: 2px 2px 4px #00000047;
 }
 
 
@@ -360,7 +385,7 @@
 
 
 .essentail-sec {
-    background: #613FE5;
+    background:  #2a2e36;
     padding: 82px 0px;
     margin-bottom: 120px;
 }

@@ -23,6 +23,25 @@ body {
 
 }
 
+.abc {
+  text-decoration: none;
+}
+
+.abc button {
+  background-color:#121314; /* Change to your desired color */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.abc button:hover {
+  background-color: #0056b3; /* Darken on hover */
+}
+
 .custom-hover {
   color: white;
   text-decoration: none;
