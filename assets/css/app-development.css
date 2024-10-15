@@ -22,6 +22,7 @@
     max-width: 1134px;
     margin: 0 auto;
     display: block;
+    text-shadow: 2px 2px 4px #00000047;
 }
 .heading-txt span {
     color: #33CCCC;
@@ -70,16 +71,16 @@
 } */
 
 .heding-solution::after {
-    background-image: url(../images/carmatec.png);
-    /* background-image: url(../images/arrow.png); */
+    /* background-image: url(../images/carmatec.png); */
+    background-image: url(../images/arrow.png);
     position: absolute;
     content: '';
     right: 1%;
-    top: 2%;
+    top: 30%;
     width: 387px;
     background-repeat: no-repeat;
     height: 276px;
-    border-radius: 37px;
+    /* border-radius: 37px; */
 }
 .heding-solution h2 {
     max-width: 706px;

@@ -8,6 +8,16 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css");
 /* #Your Dedicated Partner for Your Web and Mobile App Needs css*/
 
+.ourApprochBox h4 {
+    font-size: 32px;
+    margin-bottom: -50px;
+    margin-top: 33px;
+    color: #638191;
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 800;
+    text-shadow: 2px 2px 4px #00000047;
+}
 
 .dedicated-Partner-sec {
     padding: 140px 0px;
@@ -22,7 +32,12 @@
     font-weight: 800;
     max-width: 1071px;
     line-height: 90px;
+    /* text-shadow: 2px 2px 4px #00000047; */
     /* 125% */
+}
+
+.ourApprochBox h4:hover {
+    color: #0056b3; /* Change to a new color on hover */
 }
 
 .heroHd h2 {
@@ -34,6 +49,7 @@
     font-style: normal;
     font-weight: 500;
     line-height: 40px;
+    text-shadow: 2px 2px 4px #00000047;
     /* 166.667% */
 }
 
@@ -334,7 +350,7 @@
 
 .serviceHeading::after {
     position: absolute;
-    right: 17%;
+    right: 10%;
     top: 18%;
     width: 93px;
     height: 100px;
@@ -345,7 +361,7 @@
 .ourApprochBox {
     margin-top: 40px;
     border-radius: 20px;
-    padding: 30px;
+    padding: 26px;
     background: #16153c33
 }
 
@@ -378,6 +394,7 @@
 
 .boxImgLogo {
     margin-top: 100px;
+    display: flex;
 }
 
 
@@ -703,20 +720,21 @@
 
 
 
-/* # Appening at a Glance css */
+/* # SharadaIt at a Glance css */
 
 .appeningGlance-sec {
     padding: 120px 0px 100px;
 }
 
 .glanceHd h2 {
-    color: #101010;
+    color: #e51111;
     text-align: center;
     font-family: 'Playfair Display', serif;
     font-size: 60px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+    
 }
 
 .glanceHd h3 {
@@ -1188,11 +1206,55 @@ padding-top: 0px;
     .serviceHeading::after {
         right: 1%;
         top: 0;
+        
     }
 
-    .ourApprochBox {
+    /* .ourApprochBox {
         padding: 15px;
-    }
+    } */
+
+/* Container style */
+.app-development {
+    position: relative; /* For positioning the overlay */
+    display: block;
+    text-decoration: none;
+    color: #000; /* Default text color */
+  }
+  
+  /* Overlay style */
+  .app-development .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    opacity: 0; /* Hidden by default */
+    transition: opacity 0.3s ease;
+  }
+  
+  /* Hover effect to show the overlay */
+  .app-development:hover .overlay {
+    opacity: 1;
+  }
+  
+  /* Styling the boxImgLogo for consistency */
+  .boxImgLogo {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .boxImgLogo img {
+    width: 50px;
+    height: auto;
+  }
+
 
     .ourApprochBox h2 {
         font-size: 20px;
@@ -1726,6 +1788,7 @@ padding-top: 0px;
 
     .serviceHeading::after {
         top: -30px;
+        
     }
 
     .ourApprochBox h2 {

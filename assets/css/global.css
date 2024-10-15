@@ -557,14 +557,65 @@ height: auto;
   .navbar-expand-md form {
     margin-left: 15px;
 }
-#header .navbar-toggler-icon {
+/* #header .navbar-toggler-icon {
 
   padding: 0px 7px;
   border-radius: 6px;
   display: table;
   height: initial;
   font-size: 24px;
+} */
+
+
+@media (max-width: 575.98px) {
+  #header .navbar-toggler-icon {
+      padding: 5px 10px; /* Add some padding for better spacing */
+      border-radius: 6px; /* Rounded corners */
+      display: inline-block; /* Ensure it's an inline element */
+      height: auto; /* Auto height for better flexibility */
+      width: 40px; /* Specify a width for better control */
+     
+      background-image: none; /* Remove any default background */
+      font-size: 24px; /* Set font-size for larger icon */
+      border: 2px solid #fff; /* Add a white border for contrast */
+      color: #333; /* Change the icon color to white */
+      transition: background-color 0.3s ease, border-color 0.3s ease; /* Smooth transition */
+  }
+
+  /* Hover effect */
+  #header .navbar-toggler-icon:hover {
+      background-color: #555; /* Darken background on hover */
+      border-color: #ff7e5f; /* Change border color on hover */
+  }
+
+ 
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .navbar-expand-md .navbar-nav .nav-link:hover:before{
   display: none;
 }
