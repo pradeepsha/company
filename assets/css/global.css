@@ -584,7 +584,7 @@ height: auto;
 
   /* Hover effect */
   #header .navbar-toggler-icon:hover {
-      background-color: #555; /* Darken background on hover */
+      background-color: #ce1c1c; /* Darken background on hover */
       border-color: #ff7e5f; /* Change border color on hover */
   }
 

@@ -93,6 +93,7 @@
     background: #F9FAFD;
     border-radius: 20px;
     padding: 30px;
+    border: 1px solid #EDEDED;
 }
 .android-app-box h2 {
     font-family: 'Inter';
