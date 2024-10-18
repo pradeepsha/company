@@ -724,6 +724,7 @@
 
 .appeningGlance-sec {
     padding: 120px 0px 100px;
+    margin-bottom: -100px;
 }
 
 .glanceHd h2 {
