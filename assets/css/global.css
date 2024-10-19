@@ -53,7 +53,7 @@ body {
 }
 
 footer p, footer a {
-  font-size: 14px; /* Reduce paragraph and link size */
+  font-size: 13px; /* Reduce paragraph and link size */
 }
 
 .services-grid{
