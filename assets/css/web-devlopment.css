@@ -60,7 +60,7 @@
     position: relative;
 }
 .heding-solution::after {
-    background-image: url(../images/arrow.png);
+    /* background-image: url(../images/arrow.png); */
     position: absolute;
     content: '';
     right: 23%;
