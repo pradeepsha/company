@@ -72,7 +72,7 @@
 
 .heding-solution::after {
     /* background-image: url(../images/carmatec.png); */
-    background-image: url(../images/arrow.png);
+    /* background-image: url(../images/arrow.png); */
     position: absolute;
     content: '';
     right: 1%;

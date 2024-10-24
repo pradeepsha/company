@@ -37,8 +37,18 @@
 }
 
 .ourApprochBox h4:hover {
-    color: #0056b3; /* Change to a new color on hover */
+    color: #0056b3; 
 }
+    /* Change to a new color on hover */
+
+
+
+
+
+
+
+
+
 
 .heroHd h2 {
     color: #111;
@@ -355,7 +365,7 @@
     width: 93px;
     height: 100px;
     content: '';
-    background-image: url(../images/agency.png);
+    /* background-image: url(../images/agency.png); */
 }
 
 .ourApprochBox {
