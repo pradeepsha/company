@@ -52,15 +52,16 @@ body {
   color: #e91c1c; /* Change hover color here */
 }
 
-footer p, footer a {
-  font-size: 13px; /* Reduce paragraph and link size */
+
+
+.services-grid {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  color: #ffffff !important;
 }
 
-.services-grid{
-  padding-left: 0px;
-}
 
-a,
+a, 
 a:hover {
   outline: none;
   text-decoration: none;
@@ -235,7 +236,8 @@ border-radius: 20px;
 footer{
   background: #101010;
   width: 100%;
-  padding: 96px 0px 24px;
+  /* padding: 96px 0px 24px; */
+  background-color: #45526e;width: 100%; margin-bottom: -102px;padding-top: 20px;
 }
 .footer-detail p{
   font-family: 'Inter';
@@ -247,6 +249,9 @@ font-feature-settings: 'salt' on, 'liga' off;
 color: #D9DBE1;
 padding-top: 16px;
 max-width: 252px;
+}
+footer p, footer a {
+  font-size: 15px; /* Reduce paragraph and link size */
 }
 .flex-Social-icon{
   display: flex;
