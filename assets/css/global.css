@@ -545,6 +545,7 @@ height: auto;
   }
   #header .collapsed {
       padding: 0;
+      
   }
   #header {
     padding: 10px 0px;
@@ -554,7 +555,7 @@ height: auto;
     font-size: 2rem;
   }
   #header .navbar-nav{
-    padding-top: 0px;
+    padding-top: 20px;
   }
   #header .navbar-toggler:focus{
     box-shadow: none !important;
@@ -598,9 +599,15 @@ height: auto;
 }
 
 
-
-
-
+/* Small screens (e.g., mobile devices) */
+@media (max-width: 600px) {
+  .abc button {
+      padding: 8px 16px;
+      font-size: 14px;
+      margin-bottom: 150px;
+      margin-right: 75px;
+  }
+}
 
 
 
