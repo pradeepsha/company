@@ -23,6 +23,10 @@ body {
 
 }
 
+.header-img {
+  width: 230px;
+}
+
 .abc {
   text-decoration: none;
 }
