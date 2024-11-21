@@ -23,8 +23,16 @@ body {
 
 }
 
-.header-img {
+.navbar-brand img {
   width: 200px;
+  height: auto;
+}
+
+.footer-img {
+  width: 210px;
+  margin-left: -11px;
+  margin-top: -10px;
+  padding-bottom: 9px;
 }
 
 .abc {
@@ -436,10 +444,10 @@ display: none;
     display: block;
     transition: 0.3s;
   }
-  .navbar-brand img{
+  /* .navbar-brand img{
     width: auto;
-height: auto;
-  }
+    height: auto;
+  } */
   .sidenav a:hover {
     color: #000;
   }
